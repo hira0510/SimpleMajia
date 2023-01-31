@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="SetTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="104" id="GYo-tY-twz" customClass="SetTableViewCell" customModule="GymTraining" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GYo-tY-twz" id="GBb-vR-bE2">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.44999998807907104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn" translatesAutoresizingMaskIntoConstraints="NO" id="VnA-Zl-2cV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="項目：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3B-o9-Qy5">
+                        <rect key="frame" x="37.5" y="22" width="300" height="31"/>
+                        <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="22"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="時間：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8j-Xd-sBT">
+                        <rect key="frame" x="37.5" y="61" width="300" height="28"/>
+                        <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="20"/>
+                        <color key="textColor" red="0.74604412298187872" green="0.75993416878172593" blue="0.64396752063060614" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="a8j-Xd-sBT" firstAttribute="leading" secondItem="M3B-o9-Qy5" secondAttribute="leading" id="ES8-Tq-PvO"/>
+                    <constraint firstItem="a8j-Xd-sBT" firstAttribute="width" secondItem="M3B-o9-Qy5" secondAttribute="width" id="RQH-ra-hah"/>
+                    <constraint firstItem="a8j-Xd-sBT" firstAttribute="centerY" secondItem="GBb-vR-bE2" secondAttribute="centerY" multiplier="150:100" id="Wzz-qC-UhA"/>
+                    <constraint firstItem="M3B-o9-Qy5" firstAttribute="centerY" secondItem="GBb-vR-bE2" secondAttribute="centerY" multiplier="75:100" id="Xcz-co-AFI"/>
+                    <constraint firstItem="VnA-Zl-2cV" firstAttribute="centerX" secondItem="GBb-vR-bE2" secondAttribute="centerX" id="bMj-o9-ugg"/>
+                    <constraint firstItem="M3B-o9-Qy5" firstAttribute="centerX" secondItem="GBb-vR-bE2" secondAttribute="centerX" id="dVQ-Bm-mgn"/>
+                    <constraint firstItem="VnA-Zl-2cV" firstAttribute="centerY" secondItem="GBb-vR-bE2" secondAttribute="centerY" id="oY1-in-NlD"/>
+                    <constraint firstItem="M3B-o9-Qy5" firstAttribute="width" secondItem="GBb-vR-bE2" secondAttribute="width" multiplier="300:375" id="wVS-QJ-v8f"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="VnA-Zl-2cV" firstAttribute="centerY" secondItem="GYo-tY-twz" secondAttribute="centerY" id="7CN-8B-lzw"/>
+                <constraint firstItem="VnA-Zl-2cV" firstAttribute="height" secondItem="GYo-tY-twz" secondAttribute="height" id="EJr-3y-wYb"/>
+                <constraint firstItem="VnA-Zl-2cV" firstAttribute="centerX" secondItem="GYo-tY-twz" secondAttribute="centerX" id="Ikt-Dp-eYN"/>
+                <constraint firstItem="VnA-Zl-2cV" firstAttribute="width" secondItem="GYo-tY-twz" secondAttribute="width" id="z85-qt-IEt"/>
+            </constraints>
+            <connections>
+                <outlet property="nameLable" destination="M3B-o9-Qy5" id="QeZ-AB-rF5"/>
+                <outlet property="timeLable" destination="a8j-Xd-sBT" id="dB4-wc-7pB"/>
+            </connections>
+            <point key="canvasLocation" x="116" y="159.22038980509745"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="btn" width="221" height="55"/>
+    </resources>
+</document>
