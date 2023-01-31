@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE123BA623FD1A2A0032AB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE123BA523FD1A2A0032AB22 /* Assets.xcassets */; };
+		FE123BA823FD1A9F0032AB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE123BA723FD1A9E0032AB22 /* Main.storyboard */; };
+		FE123BAE23FD26E10032AB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE123BAD23FD26E10032AB22 /* LaunchScreen.storyboard */; };
+		FEAD0D0323F4FA890039F8A8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAD0D0223F4FA890039F8A8 /* MenuView.swift */; };
+		FEAD0D0523F4FA920039F8A8 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEAD0D0423F4FA920039F8A8 /* MenuView.xib */; };
+		FEAD0D0723F502E50039F8A8 /* MenuViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAD0D0623F502E50039F8A8 /* MenuViews.swift */; };
+		FEAD0D0C23F520B40039F8A8 /* ShowToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEAD0D0A23F520B30039F8A8 /* ShowToastView.xib */; };
+		FEAD0D0D23F520B40039F8A8 /* ShowToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAD0D0B23F520B30039F8A8 /* ShowToastView.swift */; };
+		FED5D5E623F398B8005E3DC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED5D5E523F398B8005E3DC6 /* AppDelegate.swift */; };
+		FED5D5E823F398B8005E3DC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED5D5E723F398B8005E3DC6 /* SceneDelegate.swift */; };
+		FED5D5EA23F398B8005E3DC6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED5D5E923F398B8005E3DC6 /* MenuViewController.swift */; };
+		FED5D60A23F39EBF005E3DC6 /* drink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FED5D60623F39EBF005E3DC6 /* drink.mp3 */; };
+		FED5D60B23F39EBF005E3DC6 /* sleep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FED5D60723F39EBF005E3DC6 /* sleep.mp3 */; };
+		FED5D60C23F39EBF005E3DC6 /* getUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FED5D60823F39EBF005E3DC6 /* getUp.mp3 */; };
+		FED5D60D23F39EBF005E3DC6 /* eat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FED5D60923F39EBF005E3DC6 /* eat.mp3 */; };
+		FED5D60F23F3DCD8005E3DC6 /* SetTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED5D60E23F3DCD8005E3DC6 /* SetTimeView.swift */; };
+		FED5D61123F3DCF7005E3DC6 /* SetTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED5D61023F3DCF7005E3DC6 /* SetTimeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE123BA523FD1A2A0032AB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE123BA723FD1A9E0032AB22 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FE123BAD23FD26E10032AB22 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEAD0D0223F4FA890039F8A8 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		FEAD0D0423F4FA920039F8A8 /* MenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
+		FEAD0D0623F502E50039F8A8 /* MenuViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViews.swift; sourceTree = "<group>"; };
+		FEAD0D0A23F520B30039F8A8 /* ShowToastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowToastView.xib; sourceTree = "<group>"; };
+		FEAD0D0B23F520B30039F8A8 /* ShowToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowToastView.swift; sourceTree = "<group>"; };
+		FED5D5E223F398B8005E3DC6 /* HealthClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED5D5E523F398B8005E3DC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FED5D5E723F398B8005E3DC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FED5D5E923F398B8005E3DC6 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FED5D5F323F398B9005E3DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED5D60623F39EBF005E3DC6 /* drink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drink.mp3; sourceTree = "<group>"; };
+		FED5D60723F39EBF005E3DC6 /* sleep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sleep.mp3; sourceTree = "<group>"; };
+		FED5D60823F39EBF005E3DC6 /* getUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = getUp.mp3; sourceTree = "<group>"; };
+		FED5D60923F39EBF005E3DC6 /* eat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eat.mp3; sourceTree = "<group>"; };
+		FED5D60E23F3DCD8005E3DC6 /* SetTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimeView.swift; sourceTree = "<group>"; };
+		FED5D61023F3DCF7005E3DC6 /* SetTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED5D5DF23F398B8005E3DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEAD0D0823F5200D0039F8A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEAD0D0B23F520B30039F8A8 /* ShowToastView.swift */,
+				FEAD0D0A23F520B30039F8A8 /* ShowToastView.xib */,
+				FEAD0D0223F4FA890039F8A8 /* MenuView.swift */,
+				FEAD0D0423F4FA920039F8A8 /* MenuView.xib */,
+				FEAD0D0623F502E50039F8A8 /* MenuViews.swift */,
+				FED5D60E23F3DCD8005E3DC6 /* SetTimeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEAD0D0923F520330039F8A8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FED5D5E923F398B8005E3DC6 /* MenuViewController.swift */,
+				FED5D61023F3DCF7005E3DC6 /* SetTimeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FED5D5D923F398B8005E3DC6 = {
+			isa = PBXGroup;
+			children = (
+				FED5D5E423F398B8005E3DC6 /* AlarmClockClock */,
+				FED5D5E323F398B8005E3DC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED5D5E323F398B8005E3DC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED5D5E223F398B8005E3DC6 /* HealthClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED5D5E423F398B8005E3DC6 /* AlarmClockClock */ = {
+			isa = PBXGroup;
+			children = (
+				FED5D5F923F39AC3005E3DC6 /* Song */,
+				FEAD0D0823F5200D0039F8A8 /* View */,
+				FEAD0D0923F520330039F8A8 /* ViewController */,
+				FED5D5E523F398B8005E3DC6 /* AppDelegate.swift */,
+				FE123BAD23FD26E10032AB22 /* LaunchScreen.storyboard */,
+				FED5D5E723F398B8005E3DC6 /* SceneDelegate.swift */,
+				FE123BA723FD1A9E0032AB22 /* Main.storyboard */,
+				FE123BA523FD1A2A0032AB22 /* Assets.xcassets */,
+				FED5D5F323F398B9005E3DC6 /* Info.plist */,
+			);
+			path = AlarmClockClock;
+			sourceTree = "<group>";
+		};
+		FED5D5F923F39AC3005E3DC6 /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				FED5D60623F39EBF005E3DC6 /* drink.mp3 */,
+				FED5D60923F39EBF005E3DC6 /* eat.mp3 */,
+				FED5D60823F39EBF005E3DC6 /* getUp.mp3 */,
+				FED5D60723F39EBF005E3DC6 /* sleep.mp3 */,
+			);
+			path = Song;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED5D5E123F398B8005E3DC6 /* HealthClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED5D5F623F398B9005E3DC6 /* Build configuration list for PBXNativeTarget "HealthClock" */;
+			buildPhases = (
+				FED5D5DE23F398B8005E3DC6 /* Sources */,
+				FED5D5DF23F398B8005E3DC6 /* Frameworks */,
+				FED5D5E023F398B8005E3DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthClock;
+			productName = AlarmClockClock;
+			productReference = FED5D5E223F398B8005E3DC6 /* HealthClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED5D5DA23F398B8005E3DC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Hira;
+				TargetAttributes = {
+					FED5D5E123F398B8005E3DC6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FED5D5DD23F398B8005E3DC6 /* Build configuration list for PBXProject "AlarmClockClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FED5D5D923F398B8005E3DC6;
+			productRefGroup = FED5D5E323F398B8005E3DC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED5D5E123F398B8005E3DC6 /* HealthClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED5D5E023F398B8005E3DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE123BAE23FD26E10032AB22 /* LaunchScreen.storyboard in Resources */,
+				FEAD0D0C23F520B40039F8A8 /* ShowToastView.xib in Resources */,
+				FED5D60B23F39EBF005E3DC6 /* sleep.mp3 in Resources */,
+				FED5D60D23F39EBF005E3DC6 /* eat.mp3 in Resources */,
+				FEAD0D0523F4FA920039F8A8 /* MenuView.xib in Resources */,
+				FED5D60C23F39EBF005E3DC6 /* getUp.mp3 in Resources */,
+				FE123BA623FD1A2A0032AB22 /* Assets.xcassets in Resources */,
+				FE123BA823FD1A9F0032AB22 /* Main.storyboard in Resources */,
+				FED5D60A23F39EBF005E3DC6 /* drink.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED5D5DE23F398B8005E3DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED5D61123F3DCF7005E3DC6 /* SetTimeViewController.swift in Sources */,
+				FEAD0D0323F4FA890039F8A8 /* MenuView.swift in Sources */,
+				FED5D5EA23F398B8005E3DC6 /* MenuViewController.swift in Sources */,
+				FED5D5E623F398B8005E3DC6 /* AppDelegate.swift in Sources */,
+				FED5D60F23F3DCD8005E3DC6 /* SetTimeView.swift in Sources */,
+				FEAD0D0D23F520B40039F8A8 /* ShowToastView.swift in Sources */,
+				FEAD0D0723F502E50039F8A8 /* MenuViews.swift in Sources */,
+				FED5D5E823F398B8005E3DC6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FED5D5F423F398B9005E3DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FED5D5F523F398B9005E3DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED5D5F723F398B9005E3DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0216;
+				DEVELOPMENT_TEAM = J86D5LTY88;
+				INFOPLIST_FILE = AlarmClockClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.healthclock";
+				PRODUCT_NAME = HealthClock;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FED5D5F823F398B9005E3DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0216;
+				DEVELOPMENT_TEAM = TS59DVHY55;
+				INFOPLIST_FILE = AlarmClockClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dsn.healthclock;
+				PRODUCT_NAME = HealthClock;
+				PROVISIONING_PROFILE_SPECIFIER = healthclock_store;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED5D5DD23F398B8005E3DC6 /* Build configuration list for PBXProject "AlarmClockClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED5D5F423F398B9005E3DC6 /* Debug */,
+				FED5D5F523F398B9005E3DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED5D5F623F398B9005E3DC6 /* Build configuration list for PBXNativeTarget "HealthClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED5D5F723F398B9005E3DC6 /* Debug */,
+				FED5D5F823F398B9005E3DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED5D5DA23F398B8005E3DC6 /* Project object */;
+}

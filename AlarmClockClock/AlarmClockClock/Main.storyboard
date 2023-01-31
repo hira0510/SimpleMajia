@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MenuViewController" id="BYZ-38-t0r" customClass="MenuViewController" customModule="AlarmClockClock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="WkK-jA-wqc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您的健康好幫手" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yo1-bl-7ei">
+                                <rect key="frame" x="123.5" y="149.5" width="128.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yyz-1V-Qdb" customClass="MenuView" customModule="AlarmClockClock" customModuleProvider="target">
+                                <rect key="frame" x="42.5" y="530" width="290" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yyz-1V-Qdb" secondAttribute="height" multiplier="29:8" id="uCu-C0-nP2"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eYD-jL-koj" customClass="MenuView" customModule="AlarmClockClock" customModuleProvider="target">
+                                <rect key="frame" x="42.5" y="420" width="290" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eYD-jL-koj" secondAttribute="height" multiplier="29:8" id="9Kz-Mc-ndY"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dfK-V3-crf" customClass="MenuView" customModule="AlarmClockClock" customModuleProvider="target">
+                                <rect key="frame" x="42.5" y="310" width="290" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dfK-V3-crf" secondAttribute="height" multiplier="29:8" id="hbd-MK-wKQ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ocR-lJ-S8I" customClass="MenuView" customModule="AlarmClockClock" customModuleProvider="target">
+                                <rect key="frame" x="42.5" y="200" width="290" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ocR-lJ-S8I" secondAttribute="height" multiplier="29:8" id="5na-4L-CNb"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="kFY-yU-Uu9">
+                                <rect key="frame" x="67.5" y="38" width="240" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kFY-yU-Uu9" secondAttribute="height" multiplier="30:13" id="UEy-Ol-AwR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yyz-1V-Qdb" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="290:375" id="0Cp-Mj-d0u"/>
+                            <constraint firstItem="WkK-jA-wqc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1ug-B4-89E"/>
+                            <constraint firstItem="eYD-jL-koj" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="290:375" id="32h-bA-Aw7"/>
+                            <constraint firstItem="dfK-V3-crf" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="700:667" id="4Bs-US-QXe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WkK-jA-wqc" secondAttribute="trailing" id="9bI-Zp-lNB"/>
+                            <constraint firstAttribute="bottom" secondItem="WkK-jA-wqc" secondAttribute="bottom" id="EBp-af-5km"/>
+                            <constraint firstItem="yyz-1V-Qdb" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1140:667" id="GCI-Aa-DdH"/>
+                            <constraint firstItem="Yo1-bl-7ei" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="320:667" id="IE9-Pl-mRX"/>
+                            <constraint firstItem="dfK-V3-crf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OY1-mw-ls7"/>
+                            <constraint firstItem="WkK-jA-wqc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PuU-Ng-vsw"/>
+                            <constraint firstItem="kFY-yU-Uu9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.64" id="Wdy-zi-N97"/>
+                            <constraint firstItem="ocR-lJ-S8I" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="480:667" id="bNa-rw-v7L"/>
+                            <constraint firstItem="Yo1-bl-7ei" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cup-C4-h1q"/>
+                            <constraint firstItem="kFY-yU-Uu9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="g5G-NF-7Px"/>
+                            <constraint firstItem="yyz-1V-Qdb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="i0Y-RM-MCH"/>
+                            <constraint firstItem="kFY-yU-Uu9" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="180:667" id="lde-E9-8PR"/>
+                            <constraint firstItem="ocR-lJ-S8I" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mIG-Mi-9Tl"/>
+                            <constraint firstItem="eYD-jL-koj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uLB-W8-09s"/>
+                            <constraint firstItem="ocR-lJ-S8I" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="290:375" id="uyA-sI-Spj"/>
+                            <constraint firstItem="eYD-jL-koj" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="920:667" id="wnM-ne-v9s"/>
+                            <constraint firstItem="dfK-V3-crf" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="290:375" id="zsn-gY-mN8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="views" destination="gsq-2g-thK" id="H3f-qp-7c7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="gsq-2g-thK" customClass="MenuViews" customModule="AlarmClockClock" customModuleProvider="target">
+                    <connections>
+                        <outlet property="bgView" destination="8bC-Xf-vdC" id="kKw-5v-pRg"/>
+                        <outlet property="view1" destination="ocR-lJ-S8I" id="Epz-Kw-ki2"/>
+                        <outlet property="view2" destination="dfK-V3-crf" id="skX-PS-T6d"/>
+                        <outlet property="view3" destination="eYD-jL-koj" id="pbU-W7-bH5"/>
+                        <outlet property="view4" destination="yyz-1V-Qdb" id="hfl-29-UVU"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="132" y="138.0809595202399"/>
+        </scene>
+        <!--Set Time View Controller-->
+        <scene sceneID="1rt-J6-2h2">
+            <objects>
+                <viewController storyboardIdentifier="SetTimeViewController" modalPresentationStyle="fullScreen" id="E2N-xi-XAM" customClass="SetTimeViewController" customModule="AlarmClockClock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nZA-yN-cTa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="water" translatesAutoresizingMaskIntoConstraints="NO" id="eOT-66-50N">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="talk" translatesAutoresizingMaskIntoConstraints="NO" id="rzB-zB-OQz">
+                                <rect key="frame" x="20" y="283.5" width="220" height="243"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rzB-zB-OQz" secondAttribute="height" multiplier="220:243" id="Ecm-S6-SGg"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mylove2" translatesAutoresizingMaskIntoConstraints="NO" id="Fcx-4q-3zg">
+                                <rect key="frame" x="247" y="394" width="128" height="273"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Fcx-4q-3zg" secondAttribute="height" multiplier="128:273" id="3Jc-qo-PLi"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G54-y2-6YX">
+                                <rect key="frame" x="30" y="293.5" width="200" height="223"/>
+                                <string key="text">喝水時只要花點小功夫，可以讓健康效果加倍唷！聽說喝水的要領就是       “一次喝150~250ml，一天喝6~8次”。 
+還有睡覺前後一定要喝水 快點來定時喝水吧！</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNV-O7-MXP">
+                                <rect key="frame" x="50" y="97.5" width="275" height="155"/>
+                                <color key="backgroundColor" white="1" alpha="0.56996468321917804" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kNV-O7-MXP" secondAttribute="height" multiplier="55:31" id="jxb-W4-19c"/>
+                                </constraints>
+                                <locale key="locale" localeIdentifier="zh"/>
+                                <connections>
+                                    <action selector="timeChange:" destination="E2N-xi-XAM" eventType="valueChanged" id="zjp-eR-SZ9"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="設置喝水間隔時間" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLs-er-PRL">
+                                <rect key="frame" x="15" y="38" width="164" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Tal-8c-7dB">
+                                <rect key="frame" x="276" y="272.5" width="51" height="31"/>
+                                <color key="onTintColor" red="0.72848886986301364" green="1" blue="0.8224349567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="switchChange:" destination="E2N-xi-XAM" eventType="valueChanged" id="iiF-uL-31J"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V09-mc-DmD">
+                                <rect key="frame" x="293" y="32" width="62" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.32981057363013699" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="V09-mc-DmD" secondAttribute="height" multiplier="31:18" id="g8G-BQ-J5q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="完成">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="completeBtnClick:" destination="E2N-xi-XAM" eventType="touchUpInside" id="Gn2-mC-2pj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="G54-y2-6YX" firstAttribute="centerY" secondItem="rzB-zB-OQz" secondAttribute="centerY" id="0dy-Oi-qXJ"/>
+                            <constraint firstItem="kNV-O7-MXP" firstAttribute="width" secondItem="nZA-yN-cTa" secondAttribute="width" multiplier="275:375" id="A2c-vH-6Vt"/>
+                            <constraint firstItem="kNV-O7-MXP" firstAttribute="centerY" secondItem="Ey4-Zx-xkA" secondAttribute="centerY" multiplier="350:667" id="D0w-Wh-r1e"/>
+                            <constraint firstItem="G54-y2-6YX" firstAttribute="width" secondItem="rzB-zB-OQz" secondAttribute="width" constant="-20" id="Dsy-d0-h8u"/>
+                            <constraint firstItem="G54-y2-6YX" firstAttribute="height" secondItem="rzB-zB-OQz" secondAttribute="height" constant="-20" id="FoH-XJ-fZI"/>
+                            <constraint firstItem="Fcx-4q-3zg" firstAttribute="trailing" secondItem="Ey4-Zx-xkA" secondAttribute="trailing" id="HpP-C3-Osa"/>
+                            <constraint firstItem="eOT-66-50N" firstAttribute="top" secondItem="nZA-yN-cTa" secondAttribute="top" id="LPG-TR-cfd"/>
+                            <constraint firstItem="CLs-er-PRL" firstAttribute="leading" secondItem="Ey4-Zx-xkA" secondAttribute="leading" constant="15" id="Lla-em-l1f"/>
+                            <constraint firstAttribute="bottom" secondItem="eOT-66-50N" secondAttribute="bottom" id="Py4-gm-yF0"/>
+                            <constraint firstItem="rzB-zB-OQz" firstAttribute="centerX" secondItem="nZA-yN-cTa" secondAttribute="centerX" multiplier="260:375" id="Q1Q-fO-xuD"/>
+                            <constraint firstItem="G54-y2-6YX" firstAttribute="centerX" secondItem="rzB-zB-OQz" secondAttribute="centerX" id="Syx-9f-aqo"/>
+                            <constraint firstItem="V09-mc-DmD" firstAttribute="centerY" secondItem="CLs-er-PRL" secondAttribute="centerY" id="U1a-lx-R9A"/>
+                            <constraint firstItem="Tal-8c-7dB" firstAttribute="top" secondItem="kNV-O7-MXP" secondAttribute="bottom" constant="20" id="WdN-z2-urs"/>
+                            <constraint firstItem="Fcx-4q-3zg" firstAttribute="bottom" secondItem="Ey4-Zx-xkA" secondAttribute="bottom" id="XpS-gq-ytg"/>
+                            <constraint firstItem="V09-mc-DmD" firstAttribute="width" secondItem="nZA-yN-cTa" secondAttribute="width" multiplier="62:375" id="aij-16-ynY"/>
+                            <constraint firstItem="rzB-zB-OQz" firstAttribute="width" secondItem="nZA-yN-cTa" secondAttribute="width" multiplier="220:375" id="cOy-Sx-nTc"/>
+                            <constraint firstItem="Tal-8c-7dB" firstAttribute="trailing" secondItem="kNV-O7-MXP" secondAttribute="trailing" id="d2E-qw-NMm"/>
+                            <constraint firstItem="Ey4-Zx-xkA" firstAttribute="trailing" secondItem="eOT-66-50N" secondAttribute="trailing" id="d9k-f5-h3z"/>
+                            <constraint firstItem="rzB-zB-OQz" firstAttribute="centerY" secondItem="nZA-yN-cTa" secondAttribute="centerY" multiplier="810:667" id="dRr-S8-xBD"/>
+                            <constraint firstItem="Fcx-4q-3zg" firstAttribute="width" secondItem="nZA-yN-cTa" secondAttribute="width" multiplier="128:375" id="gho-ND-ge6"/>
+                            <constraint firstItem="Ey4-Zx-xkA" firstAttribute="trailing" secondItem="V09-mc-DmD" secondAttribute="trailing" constant="20" id="k8X-MN-bS1"/>
+                            <constraint firstItem="CLs-er-PRL" firstAttribute="centerY" secondItem="Ey4-Zx-xkA" secondAttribute="centerY" multiplier="100:667" id="oaf-Sj-xqt"/>
+                            <constraint firstItem="kNV-O7-MXP" firstAttribute="centerX" secondItem="Ey4-Zx-xkA" secondAttribute="centerX" id="vIE-5p-Kp0"/>
+                            <constraint firstItem="eOT-66-50N" firstAttribute="leading" secondItem="Ey4-Zx-xkA" secondAttribute="leading" id="zJl-U9-kQI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ey4-Zx-xkA"/>
+                    </view>
+                    <connections>
+                        <outlet property="views" destination="tUn-n6-S02" id="T5Q-kq-Fam"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UTB-Ir-hJ4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="tUn-n6-S02" customClass="SetTimeView" customModule="AlarmClockClock" customModuleProvider="target">
+                    <connections>
+                        <outlet property="animeImg" destination="Fcx-4q-3zg" id="OFf-pT-C2P"/>
+                        <outlet property="bgImg" destination="eOT-66-50N" id="QIY-ho-8pg"/>
+                        <outlet property="bgView" destination="nZA-yN-cTa" id="6pA-34-2yH"/>
+                        <outlet property="completeBtn" destination="V09-mc-DmD" id="LLU-zN-nLf"/>
+                        <outlet property="mainTitle" destination="CLs-er-PRL" id="TXL-5m-pGJ"/>
+                        <outlet property="setDataPicker" destination="kNV-O7-MXP" id="SSf-2k-TLh"/>
+                        <outlet property="suggestTitle" destination="G54-y2-6YX" id="NL6-1y-miy"/>
+                        <outlet property="switchOpen" destination="Tal-8c-7dB" id="i0d-8y-ijC"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="977" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="610" height="350"/>
+        <image name="mylove2" width="256" height="554"/>
+        <image name="talk" width="221" height="268"/>
+        <image name="title" width="240" height="104"/>
+        <image name="water" width="600" height="375"/>
+    </resources>
+</document>

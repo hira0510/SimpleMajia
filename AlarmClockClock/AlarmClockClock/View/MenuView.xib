@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuView" customModule="AlarmClockClock" customModuleProvider="target">
+            <connections>
+                <outlet property="setBtn" destination="1qh-kP-Vqu" id="jq4-Xr-TXS"/>
+                <outlet property="simpleSwitch" destination="FHP-T0-nR2" id="OH0-8G-HFe"/>
+                <outlet property="timeLable" destination="riU-57-gM0" id="7ok-0G-5ec"/>
+                <outlet property="titleLable" destination="71T-mL-aX7" id="JLG-OG-YrR"/>
+                <outlet property="views" destination="iN0-l3-epB" id="0XC-Tq-F1k"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="MenuView" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="290" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qh-kP-Vqu">
+                    <rect key="frame" x="0.0" y="0.0" width="290" height="80"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="喝水定時" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71T-mL-aX7">
+                    <rect key="frame" x="7.5" y="27.5" width="85.5" height="25.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.23664918664383561" blue="0.8224349567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="riU-57-gM0">
+                    <rect key="frame" x="106" y="17" width="108" height="46.5"/>
+                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="40"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="FHP-T0-nR2">
+                    <rect key="frame" x="225.5" y="24.5" width="51" height="31"/>
+                    <color key="onTintColor" red="0.72848886989999995" green="1" blue="0.8224349567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.61052547089041098" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="FHP-T0-nR2" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" multiplier="500:290" id="0Bz-ji-jvH"/>
+                <constraint firstItem="riU-57-gM0" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" multiplier="320:290" id="1Ua-QN-7fv"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="1qh-kP-Vqu" secondAttribute="trailing" id="3Qh-Nl-e64"/>
+                <constraint firstItem="1qh-kP-Vqu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="4Wv-4R-8oc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="1qh-kP-Vqu" secondAttribute="bottom" id="7Wn-Io-y2s"/>
+                <constraint firstItem="1qh-kP-Vqu" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="EVt-I6-8Jw"/>
+                <constraint firstItem="FHP-T0-nR2" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="HSQ-Wv-QeJ"/>
+                <constraint firstItem="riU-57-gM0" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="VuO-xS-kCv"/>
+                <constraint firstItem="71T-mL-aX7" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="eUc-Y6-Wqv"/>
+                <constraint firstItem="71T-mL-aX7" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" multiplier="100:290" id="rmd-Js-eut"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="60.799999999999997" y="203.29835082458771"/>
+        </view>
+    </objects>
+</document>

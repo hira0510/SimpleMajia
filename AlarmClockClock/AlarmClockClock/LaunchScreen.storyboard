@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="d6v-Vc-dNE">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="VBL-s8-PJa">
+            <objects>
+                <viewController id="d6v-Vc-dNE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jnz-av-opg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="pWS-sN-Vak">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="pWS-sN-Vak" secondAttribute="bottom" id="LeJ-01-zbl"/>
+                            <constraint firstItem="pWS-sN-Vak" firstAttribute="top" secondItem="jnz-av-opg" secondAttribute="top" id="Lvz-Ie-vac"/>
+                            <constraint firstItem="WcJ-BE-05b" firstAttribute="trailing" secondItem="pWS-sN-Vak" secondAttribute="trailing" id="XUh-Cc-ujG"/>
+                            <constraint firstItem="pWS-sN-Vak" firstAttribute="leading" secondItem="WcJ-BE-05b" secondAttribute="leading" id="mz3-d0-FVC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WcJ-BE-05b"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hyM-2o-QqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="610" height="350"/>
+    </resources>
+</document>
