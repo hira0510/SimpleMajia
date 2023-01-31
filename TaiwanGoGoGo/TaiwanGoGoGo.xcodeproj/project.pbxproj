@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DFEC206A7C8250652744BA6 /* Pods_TaiwanGoGoGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9101E431858EFFBA12061935 /* Pods_TaiwanGoGoGo.framework */; };
+		FE50F9A924629AA1007A7426 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE50F9A824629AA1007A7426 /* MapKit.framework */; };
+		FE8DFEBB24581FAC00676E40 /* TaiwanResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8DFEBA24581FAC00676E40 /* TaiwanResultViewController.swift */; };
+		FE8DFEBD24581FD500676E40 /* TaiwanResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8DFEBC24581FD500676E40 /* TaiwanResultView.swift */; };
+		FEAF04FB24616FDB009A169B /* ObservableType+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF04F824616FDB009A169B /* ObservableType+ObjectMapper.swift */; };
+		FEAF04FC24616FDB009A169B /* Single+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF04F924616FDB009A169B /* Single+ObjectMapper.swift */; };
+		FEAF04FD24616FDB009A169B /* Response+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAF04FA24616FDB009A169B /* Response+ObjectMapper.swift */; };
+		FED9E3C12456E5AE0096F9F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED9E3C02456E5AE0096F9F9 /* AppDelegate.swift */; };
+		FED9E3C32456E5AE0096F9F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED9E3C22456E5AE0096F9F9 /* SceneDelegate.swift */; };
+		FED9E3C82456E5AE0096F9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED9E3C62456E5AE0096F9F9 /* Main.storyboard */; };
+		FED9E3CA2456E5AF0096F9F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED9E3C92456E5AF0096F9F9 /* Assets.xcassets */; };
+		FED9E3CD2456E5AF0096F9F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED9E3CB2456E5AF0096F9F9 /* LaunchScreen.storyboard */; };
+		FED9E3DC2456EDD20096F9F9 /* TaiwanMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED9E3DB2456EDD20096F9F9 /* TaiwanMainViewController.swift */; };
+		FED9E3E02456F1BD0096F9F9 /* TaiwanMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED9E3DF2456F1BD0096F9F9 /* TaiwanMapView.swift */; };
+		FED9E3E22456F1C50096F9F9 /* TaiwanMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED9E3E12456F1C50096F9F9 /* TaiwanMapView.xib */; };
+		FED9E3E42456F1FD0096F9F9 /* TaiwanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED9E3E32456F1FD0096F9F9 /* TaiwanService.swift */; };
+		FED9E3E62456F20C0096F9F9 /* TaiwanAPi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED9E3E52456F20C0096F9F9 /* TaiwanAPi.swift */; };
+		FED9E3E82456F2170096F9F9 /* TaiwanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED9E3E72456F2170096F9F9 /* TaiwanModel.swift */; };
+		FED9E3EA2456F2230096F9F9 /* TaiwanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED9E3E92456F2230096F9F9 /* TaiwanViewModel.swift */; };
+		FED9E3ED2456F2870096F9F9 /* TaiwanMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED9E3EB2456F2870096F9F9 /* TaiwanMainCell.swift */; };
+		FED9E3EE2456F2870096F9F9 /* TaiwanMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED9E3EC2456F2870096F9F9 /* TaiwanMainCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		513E01E0CC25F04AF8187C3D /* Pods-TaiwanGoGoGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaiwanGoGoGo.debug.xcconfig"; path = "Target Support Files/Pods-TaiwanGoGoGo/Pods-TaiwanGoGoGo.debug.xcconfig"; sourceTree = "<group>"; };
+		9101E431858EFFBA12061935 /* Pods_TaiwanGoGoGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaiwanGoGoGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C06016E572A0B7394925B2 /* Pods-TaiwanGoGoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaiwanGoGoGo.release.xcconfig"; path = "Target Support Files/Pods-TaiwanGoGoGo/Pods-TaiwanGoGoGo.release.xcconfig"; sourceTree = "<group>"; };
+		FE50F9A824629AA1007A7426 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FE8DFEBA24581FAC00676E40 /* TaiwanResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanResultViewController.swift; sourceTree = "<group>"; };
+		FE8DFEBC24581FD500676E40 /* TaiwanResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanResultView.swift; sourceTree = "<group>"; };
+		FEAF04F824616FDB009A169B /* ObservableType+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+ObjectMapper.swift"; sourceTree = "<group>"; };
+		FEAF04F924616FDB009A169B /* Single+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+ObjectMapper.swift"; sourceTree = "<group>"; };
+		FEAF04FA24616FDB009A169B /* Response+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+ObjectMapper.swift"; sourceTree = "<group>"; };
+		FED9E3BD2456E5AE0096F9F9 /* TaiwanGoGoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaiwanGoGoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED9E3C02456E5AE0096F9F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FED9E3C22456E5AE0096F9F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FED9E3C72456E5AE0096F9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FED9E3C92456E5AF0096F9F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FED9E3CC2456E5AF0096F9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FED9E3CE2456E5AF0096F9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED9E3DB2456EDD20096F9F9 /* TaiwanMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanMainViewController.swift; sourceTree = "<group>"; };
+		FED9E3DF2456F1BD0096F9F9 /* TaiwanMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanMapView.swift; sourceTree = "<group>"; };
+		FED9E3E12456F1C50096F9F9 /* TaiwanMapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaiwanMapView.xib; sourceTree = "<group>"; };
+		FED9E3E32456F1FD0096F9F9 /* TaiwanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanService.swift; sourceTree = "<group>"; };
+		FED9E3E52456F20C0096F9F9 /* TaiwanAPi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanAPi.swift; sourceTree = "<group>"; };
+		FED9E3E72456F2170096F9F9 /* TaiwanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanModel.swift; sourceTree = "<group>"; };
+		FED9E3E92456F2230096F9F9 /* TaiwanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanViewModel.swift; sourceTree = "<group>"; };
+		FED9E3EB2456F2870096F9F9 /* TaiwanMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanMainCell.swift; sourceTree = "<group>"; };
+		FED9E3EC2456F2870096F9F9 /* TaiwanMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaiwanMainCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED9E3BA2456E5AE0096F9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE50F9A924629AA1007A7426 /* MapKit.framework in Frameworks */,
+				6DFEC206A7C8250652744BA6 /* Pods_TaiwanGoGoGo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40D5F409EB1BC438DDBF6032 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				513E01E0CC25F04AF8187C3D /* Pods-TaiwanGoGoGo.debug.xcconfig */,
+				C6C06016E572A0B7394925B2 /* Pods-TaiwanGoGoGo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E827CA5B27DE099D03EC3381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE50F9A824629AA1007A7426 /* MapKit.framework */,
+				9101E431858EFFBA12061935 /* Pods_TaiwanGoGoGo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEAF04F724616FDB009A169B /* Moya_ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				FEAF04F824616FDB009A169B /* ObservableType+ObjectMapper.swift */,
+				FEAF04F924616FDB009A169B /* Single+ObjectMapper.swift */,
+				FEAF04FA24616FDB009A169B /* Response+ObjectMapper.swift */,
+			);
+			path = Moya_ObjectMapper;
+			sourceTree = "<group>";
+		};
+		FED9E3B42456E5AE0096F9F9 = {
+			isa = PBXGroup;
+			children = (
+				FED9E3BF2456E5AE0096F9F9 /* TaiwanGoGoGo */,
+				FED9E3BE2456E5AE0096F9F9 /* Products */,
+				40D5F409EB1BC438DDBF6032 /* Pods */,
+				E827CA5B27DE099D03EC3381 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FED9E3BE2456E5AE0096F9F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED9E3BD2456E5AE0096F9F9 /* TaiwanGoGoGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED9E3BF2456E5AE0096F9F9 /* TaiwanGoGoGo */ = {
+			isa = PBXGroup;
+			children = (
+				FED9E3D82456EAA20096F9F9 /* View */,
+				FED9E3D72456EA9C0096F9F9 /* ViewModel */,
+				FED9E3D62456EA970096F9F9 /* Model */,
+				FED9E3D52456EA810096F9F9 /* Controller */,
+				FED9E3D42456EA750096F9F9 /* Http */,
+				FED9E3C02456E5AE0096F9F9 /* AppDelegate.swift */,
+				FED9E3C22456E5AE0096F9F9 /* SceneDelegate.swift */,
+				FED9E3C62456E5AE0096F9F9 /* Main.storyboard */,
+				FED9E3C92456E5AF0096F9F9 /* Assets.xcassets */,
+				FED9E3CB2456E5AF0096F9F9 /* LaunchScreen.storyboard */,
+				FED9E3CE2456E5AF0096F9F9 /* Info.plist */,
+			);
+			path = TaiwanGoGoGo;
+			sourceTree = "<group>";
+		};
+		FED9E3D42456EA750096F9F9 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				FEAF04F724616FDB009A169B /* Moya_ObjectMapper */,
+				FED9E3E32456F1FD0096F9F9 /* TaiwanService.swift */,
+				FED9E3E52456F20C0096F9F9 /* TaiwanAPi.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		FED9E3D52456EA810096F9F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FED9E3DB2456EDD20096F9F9 /* TaiwanMainViewController.swift */,
+				FE8DFEBA24581FAC00676E40 /* TaiwanResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FED9E3D62456EA970096F9F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FED9E3E72456F2170096F9F9 /* TaiwanModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FED9E3D72456EA9C0096F9F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FED9E3E92456F2230096F9F9 /* TaiwanViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FED9E3D82456EAA20096F9F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE8DFEBC24581FD500676E40 /* TaiwanResultView.swift */,
+				FED9E3DF2456F1BD0096F9F9 /* TaiwanMapView.swift */,
+				FED9E3E12456F1C50096F9F9 /* TaiwanMapView.xib */,
+				FED9E3EB2456F2870096F9F9 /* TaiwanMainCell.swift */,
+				FED9E3EC2456F2870096F9F9 /* TaiwanMainCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED9E3BC2456E5AE0096F9F9 /* TaiwanGoGoGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED9E3D12456E5AF0096F9F9 /* Build configuration list for PBXNativeTarget "TaiwanGoGoGo" */;
+			buildPhases = (
+				EDE3AFF1A966FE73D55870B1 /* [CP] Check Pods Manifest.lock */,
+				FED9E3B92456E5AE0096F9F9 /* Sources */,
+				FED9E3BA2456E5AE0096F9F9 /* Frameworks */,
+				FED9E3BB2456E5AE0096F9F9 /* Resources */,
+				AE175C3E2305080CB0D6715F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaiwanGoGoGo;
+			productName = TaiwanGoGoGo;
+			productReference = FED9E3BD2456E5AE0096F9F9 /* TaiwanGoGoGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED9E3B52456E5AE0096F9F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = 1;
+				TargetAttributes = {
+					FED9E3BC2456E5AE0096F9F9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FED9E3B82456E5AE0096F9F9 /* Build configuration list for PBXProject "TaiwanGoGoGo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FED9E3B42456E5AE0096F9F9;
+			productRefGroup = FED9E3BE2456E5AE0096F9F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED9E3BC2456E5AE0096F9F9 /* TaiwanGoGoGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED9E3BB2456E5AE0096F9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED9E3CD2456E5AF0096F9F9 /* LaunchScreen.storyboard in Resources */,
+				FED9E3CA2456E5AF0096F9F9 /* Assets.xcassets in Resources */,
+				FED9E3EE2456F2870096F9F9 /* TaiwanMainCell.xib in Resources */,
+				FED9E3C82456E5AE0096F9F9 /* Main.storyboard in Resources */,
+				FED9E3E22456F1C50096F9F9 /* TaiwanMapView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE175C3E2305080CB0D6715F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaiwanGoGoGo/Pods-TaiwanGoGoGo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaiwanGoGoGo/Pods-TaiwanGoGoGo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaiwanGoGoGo/Pods-TaiwanGoGoGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE3AFF1A966FE73D55870B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaiwanGoGoGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED9E3B92456E5AE0096F9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED9E3E62456F20C0096F9F9 /* TaiwanAPi.swift in Sources */,
+				FED9E3E82456F2170096F9F9 /* TaiwanModel.swift in Sources */,
+				FE8DFEBD24581FD500676E40 /* TaiwanResultView.swift in Sources */,
+				FED9E3EA2456F2230096F9F9 /* TaiwanViewModel.swift in Sources */,
+				FEAF04FB24616FDB009A169B /* ObservableType+ObjectMapper.swift in Sources */,
+				FED9E3E42456F1FD0096F9F9 /* TaiwanService.swift in Sources */,
+				FED9E3C12456E5AE0096F9F9 /* AppDelegate.swift in Sources */,
+				FEAF04FC24616FDB009A169B /* Single+ObjectMapper.swift in Sources */,
+				FEAF04FD24616FDB009A169B /* Response+ObjectMapper.swift in Sources */,
+				FED9E3DC2456EDD20096F9F9 /* TaiwanMainViewController.swift in Sources */,
+				FE8DFEBB24581FAC00676E40 /* TaiwanResultViewController.swift in Sources */,
+				FED9E3C32456E5AE0096F9F9 /* SceneDelegate.swift in Sources */,
+				FED9E3ED2456F2870096F9F9 /* TaiwanMainCell.swift in Sources */,
+				FED9E3E02456F1BD0096F9F9 /* TaiwanMapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FED9E3C62456E5AE0096F9F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED9E3C72456E5AE0096F9F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FED9E3CB2456E5AF0096F9F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED9E3CC2456E5AF0096F9F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FED9E3CF2456E5AF0096F9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FED9E3D02456E5AF0096F9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED9E3D22456E5AF0096F9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513E01E0CC25F04AF8187C3D /* Pods-TaiwanGoGoGo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0506;
+				DEVELOPMENT_TEAM = 2MK4GRGK72;
+				INFOPLIST_FILE = TaiwanGoGoGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpokw.TaiwanGoGoGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TaiwanGoGoGo_dev;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FED9E3D32456E5AF0096F9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C06016E572A0B7394925B2 /* Pods-TaiwanGoGoGo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0506;
+				DEVELOPMENT_TEAM = 2MK4GRGK72;
+				INFOPLIST_FILE = TaiwanGoGoGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpokw.TaiwanGoGoGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TaiwanGoGoGo_store;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED9E3B82456E5AE0096F9F9 /* Build configuration list for PBXProject "TaiwanGoGoGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED9E3CF2456E5AF0096F9F9 /* Debug */,
+				FED9E3D02456E5AF0096F9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED9E3D12456E5AF0096F9F9 /* Build configuration list for PBXNativeTarget "TaiwanGoGoGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED9E3D22456E5AF0096F9F9 /* Debug */,
+				FED9E3D32456E5AF0096F9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED9E3B52456E5AE0096F9F9 /* Project object */;
+}
