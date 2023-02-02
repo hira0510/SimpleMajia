@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardView" customModule="Poker" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="85k-9F-fE2"/>
+                <outlet property="image1" destination="FdT-Uc-BqD" id="JSF-zr-hmv"/>
+                <outlet property="image2" destination="rPh-Lo-RAd" id="RMj-Gv-o7A"/>
+                <outlet property="image3" destination="VC2-gd-ENJ" id="Mjy-kG-KAI"/>
+                <outlet property="image4" destination="OtA-Dd-Weo" id="inZ-eu-Lm7"/>
+                <outlet property="image5" destination="CD0-xZ-jMQ" id="IyL-k6-F23"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="244" height="101"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poker_bg_top" translatesAutoresizingMaskIntoConstraints="NO" id="FdT-Uc-BqD">
+                    <rect key="frame" x="2" y="2" width="70" height="97"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="FdT-Uc-BqD" secondAttribute="height" multiplier="70:97" id="5DZ-sS-frQ"/>
+                    </constraints>
+                </imageView>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poker_bg_top" translatesAutoresizingMaskIntoConstraints="NO" id="rPh-Lo-RAd">
+                    <rect key="frame" x="42.5" y="2" width="70" height="97"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="rPh-Lo-RAd" secondAttribute="height" multiplier="70:97" id="yXm-5F-tpA"/>
+                    </constraints>
+                </imageView>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poker_bg_top" translatesAutoresizingMaskIntoConstraints="NO" id="VC2-gd-ENJ">
+                    <rect key="frame" x="87" y="2" width="70" height="97"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="VC2-gd-ENJ" secondAttribute="height" multiplier="70:97" id="Tfv-rv-6SE"/>
+                    </constraints>
+                </imageView>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poker_bg_top" translatesAutoresizingMaskIntoConstraints="NO" id="OtA-Dd-Weo">
+                    <rect key="frame" x="127.5" y="2" width="70" height="97"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="OtA-Dd-Weo" secondAttribute="height" multiplier="70:97" id="4s5-oV-pGQ"/>
+                    </constraints>
+                </imageView>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poker_bg_top" translatesAutoresizingMaskIntoConstraints="NO" id="CD0-xZ-jMQ">
+                    <rect key="frame" x="172" y="2" width="70" height="97"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="CD0-xZ-jMQ" secondAttribute="height" multiplier="70:97" id="9Kn-yr-sye"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FdT-Uc-BqD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="2" id="0nN-pI-fn2"/>
+                <constraint firstItem="rPh-Lo-RAd" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="77Q-my-3cv"/>
+                <constraint firstItem="OtA-Dd-Weo" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" multiplier="325:244" id="AsV-st-lkQ"/>
+                <constraint firstItem="rPh-Lo-RAd" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" multiplier="155:244" id="EPd-OI-abd"/>
+                <constraint firstItem="FdT-Uc-BqD" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="Eg4-dZ-Czq"/>
+                <constraint firstItem="OtA-Dd-Weo" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="70:244" id="LGw-na-l7F"/>
+                <constraint firstItem="VC2-gd-ENJ" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="MIE-vo-c4h"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CD0-xZ-jMQ" secondAttribute="trailing" constant="2" id="OG4-UM-fNO"/>
+                <constraint firstItem="CD0-xZ-jMQ" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="70:244" id="SrC-OA-Wg5"/>
+                <constraint firstItem="FdT-Uc-BqD" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="70:244" id="YFr-wH-s3Z"/>
+                <constraint firstItem="CD0-xZ-jMQ" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="cdA-aZ-4x0"/>
+                <constraint firstItem="rPh-Lo-RAd" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="70:244" id="rTO-7P-UtK"/>
+                <constraint firstItem="VC2-gd-ENJ" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="70:244" id="rrX-1c-r2e"/>
+                <constraint firstItem="VC2-gd-ENJ" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="wma-2b-SKj"/>
+                <constraint firstItem="OtA-Dd-Weo" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="y4Q-YR-2fm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="131.19999999999999" y="-98.50074962518741"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="poker_bg_top" width="69" height="96"/>
+    </resources>
+</document>

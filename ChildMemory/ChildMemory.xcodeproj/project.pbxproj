@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEF80CBD25FA23F900639082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF80CBC25FA23F900639082 /* AppDelegate.swift */; };
+		FEF80CBF25FA23F900639082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF80CBE25FA23F900639082 /* SceneDelegate.swift */; };
+		FEF80CC125FA23F900639082 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF80CC025FA23F900639082 /* GamesViewController.swift */; };
+		FEF80CC425FA23F900639082 /* Games.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF80CC225FA23F900639082 /* Games.storyboard */; };
+		FEF80CC625FA23F900639082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF80CC525FA23F900639082 /* Assets.xcassets */; };
+		FEF80CC925FA23F900639082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF80CC725FA23F900639082 /* LaunchScreen.storyboard */; };
+		FEF80CD525FA301300639082 /* GamesViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF80CD425FA301300639082 /* GamesViews.swift */; };
+		FEF80CDB25FB0BAE00639082 /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF80CDA25FB0BAE00639082 /* GamesViewModel.swift */; };
+		FEF80CE525FB203100639082 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF80CE325FB203100639082 /* HistoryTableViewCell.swift */; };
+		FEF80CE625FB203100639082 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF80CE425FB203100639082 /* HistoryTableViewCell.xib */; };
+		FEF80CE925FB203C00639082 /* OOXXViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF80CE825FB203C00639082 /* OOXXViewModel.swift */; };
+		FEF80CEC25FB204300639082 /* OOXXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF80CEB25FB204300639082 /* OOXXView.swift */; };
+		FEF80CF225FB205200639082 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF80CEE25FB205200639082 /* MenuViewController.swift */; };
+		FEF80CF325FB205200639082 /* ToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF80CEF25FB205200639082 /* ToastViewController.swift */; };
+		FEF80CF425FB205200639082 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF80CF025FB205200639082 /* HistoryViewController.swift */; };
+		FEF80CF525FB205200639082 /* OOXXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF80CF125FB205200639082 /* OOXXViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FEF80CB925FA23F900639082 /* ChildMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF80CBC25FA23F900639082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEF80CBE25FA23F900639082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEF80CC025FA23F900639082 /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		FEF80CC325FA23F900639082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Games.storyboard; sourceTree = "<group>"; };
+		FEF80CC525FA23F900639082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEF80CC825FA23F900639082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEF80CCA25FA23F900639082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF80CD425FA301300639082 /* GamesViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViews.swift; sourceTree = "<group>"; };
+		FEF80CDA25FB0BAE00639082 /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
+		FEF80CE325FB203100639082 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		FEF80CE425FB203100639082 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		FEF80CE825FB203C00639082 /* OOXXViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOXXViewModel.swift; sourceTree = "<group>"; };
+		FEF80CEB25FB204300639082 /* OOXXView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOXXView.swift; sourceTree = "<group>"; };
+		FEF80CEE25FB205200639082 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FEF80CEF25FB205200639082 /* ToastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastViewController.swift; sourceTree = "<group>"; };
+		FEF80CF025FB205200639082 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		FEF80CF125FB205200639082 /* OOXXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOXXViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEF80CB625FA23F900639082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEF80CB025FA23F900639082 = {
+			isa = PBXGroup;
+			children = (
+				FEF80CBB25FA23F900639082 /* ChildMemory */,
+				FEF80CBA25FA23F900639082 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEF80CBA25FA23F900639082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEF80CB925FA23F900639082 /* ChildMemory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEF80CBB25FA23F900639082 /* ChildMemory */ = {
+			isa = PBXGroup;
+			children = (
+				FEF80CE125FB200400639082 /* Controller */,
+				FEF80CE025FB1FFF00639082 /* Views */,
+				FEF80CDF25FB1FF800639082 /* ViewModel */,
+				FEF80CBC25FA23F900639082 /* AppDelegate.swift */,
+				FEF80CBE25FA23F900639082 /* SceneDelegate.swift */,
+				FEF80CC525FA23F900639082 /* Assets.xcassets */,
+				FEF80CC725FA23F900639082 /* LaunchScreen.storyboard */,
+				FEF80CCA25FA23F900639082 /* Info.plist */,
+			);
+			path = ChildMemory;
+			sourceTree = "<group>";
+		};
+		FEF80CDF25FB1FF800639082 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FEF80CE825FB203C00639082 /* OOXXViewModel.swift */,
+				FEF80CDA25FB0BAE00639082 /* GamesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FEF80CE025FB1FFF00639082 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEF80CE225FB203100639082 /* XIB */,
+				FEF80CD425FA301300639082 /* GamesViews.swift */,
+				FEF80CEB25FB204300639082 /* OOXXView.swift */,
+				FEF80CC225FA23F900639082 /* Games.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEF80CE125FB200400639082 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEF80CF025FB205200639082 /* HistoryViewController.swift */,
+				FEF80CEE25FB205200639082 /* MenuViewController.swift */,
+				FEF80CF125FB205200639082 /* OOXXViewController.swift */,
+				FEF80CEF25FB205200639082 /* ToastViewController.swift */,
+				FEF80CC025FA23F900639082 /* GamesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FEF80CE225FB203100639082 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				FEF80CE325FB203100639082 /* HistoryTableViewCell.swift */,
+				FEF80CE425FB203100639082 /* HistoryTableViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEF80CB825FA23F900639082 /* ChildMemory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF80CCD25FA23F900639082 /* Build configuration list for PBXNativeTarget "ChildMemory" */;
+			buildPhases = (
+				FEF80CB525FA23F900639082 /* Sources */,
+				FEF80CB625FA23F900639082 /* Frameworks */,
+				FEF80CB725FA23F900639082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChildMemory;
+			productName = ChildMemory;
+			productReference = FEF80CB925FA23F900639082 /* ChildMemory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEF80CB125FA23F900639082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					FEF80CB825FA23F900639082 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = FEF80CB425FA23F900639082 /* Build configuration list for PBXProject "ChildMemory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEF80CB025FA23F900639082;
+			productRefGroup = FEF80CBA25FA23F900639082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF80CB825FA23F900639082 /* ChildMemory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEF80CB725FA23F900639082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF80CC925FA23F900639082 /* LaunchScreen.storyboard in Resources */,
+				FEF80CC625FA23F900639082 /* Assets.xcassets in Resources */,
+				FEF80CE625FB203100639082 /* HistoryTableViewCell.xib in Resources */,
+				FEF80CC425FA23F900639082 /* Games.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF80CB525FA23F900639082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF80CF325FB205200639082 /* ToastViewController.swift in Sources */,
+				FEF80CE525FB203100639082 /* HistoryTableViewCell.swift in Sources */,
+				FEF80CC125FA23F900639082 /* GamesViewController.swift in Sources */,
+				FEF80CEC25FB204300639082 /* OOXXView.swift in Sources */,
+				FEF80CF525FB205200639082 /* OOXXViewController.swift in Sources */,
+				FEF80CBD25FA23F900639082 /* AppDelegate.swift in Sources */,
+				FEF80CF425FB205200639082 /* HistoryViewController.swift in Sources */,
+				FEF80CF225FB205200639082 /* MenuViewController.swift in Sources */,
+				FEF80CE925FB203C00639082 /* OOXXViewModel.swift in Sources */,
+				FEF80CD525FA301300639082 /* GamesViews.swift in Sources */,
+				FEF80CDB25FB0BAE00639082 /* GamesViewModel.swift in Sources */,
+				FEF80CBF25FA23F900639082 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEF80CC225FA23F900639082 /* Games.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF80CC325FA23F900639082 /* Base */,
+			);
+			name = Games.storyboard;
+			sourceTree = "<group>";
+		};
+		FEF80CC725FA23F900639082 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF80CC825FA23F900639082 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEF80CCB25FA23F900639082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEF80CCC25FA23F900639082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEF80CCE25FA23F900639082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J86D5LTY88;
+				INFOPLIST_FILE = ChildMemory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fewa.dfdsf.ChildMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEF80CCF25FA23F900639082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J86D5LTY88;
+				INFOPLIST_FILE = ChildMemory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fewa.dfdsf.ChildMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEF80CB425FA23F900639082 /* Build configuration list for PBXProject "ChildMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF80CCB25FA23F900639082 /* Debug */,
+				FEF80CCC25FA23F900639082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF80CCD25FA23F900639082 /* Build configuration list for PBXNativeTarget "ChildMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF80CCE25FA23F900639082 /* Debug */,
+				FEF80CCF25FA23F900639082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEF80CB125FA23F900639082 /* Project object */;
+}

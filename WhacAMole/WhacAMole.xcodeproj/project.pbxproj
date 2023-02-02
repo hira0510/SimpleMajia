@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE083ADC24060B8700DC9BC8 /* shoot2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE083ADB24060B8700DC9BC8 /* shoot2.mp3 */; };
+		FE1C23F12403D664003E751E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1C23F02403D664003E751E /* AppDelegate.swift */; };
+		FE1C23F32403D664003E751E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1C23F22403D664003E751E /* SceneDelegate.swift */; };
+		FE1C23F52403D664003E751E /* MenuGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1C23F42403D664003E751E /* MenuGoViewController.swift */; };
+		FE1C23F82403D664003E751E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1C23F62403D664003E751E /* Main.storyboard */; };
+		FE1C23FA2403D665003E751E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1C23F92403D665003E751E /* Assets.xcassets */; };
+		FE1C23FD2403D665003E751E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1C23FB2403D665003E751E /* LaunchScreen.storyboard */; };
+		FE45F3DA2404B7F0002E29D3 /* [MapleStory BGM] Henesys Floral Life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE45F3D92404B7F0002E29D3 /* [MapleStory BGM] Henesys Floral Life.mp3 */; };
+		FE45F40C2404FCDE002E29D3 /* GameStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45F40B2404FCDE002E29D3 /* GameStartViewController.swift */; };
+		FE45F40E2404FDDE002E29D3 /* [MapleStory BGM] Kerning Square Field.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE45F40D2404FDDE002E29D3 /* [MapleStory BGM] Kerning Square Field.mp3 */; };
+		FE45F4102404FE1A002E29D3 /* GameStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45F40F2404FE1A002E29D3 /* GameStartView.swift */; };
+		FE45F41424050324002E29D3 /* cat_like1a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE45F41124050324002E29D3 /* cat_like1a.mp3 */; };
+		FE45F41524050324002E29D3 /* stabbing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE45F41224050324002E29D3 /* stabbing.mp3 */; };
+		FE45F41624050324002E29D3 /* cat_like3a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE45F41324050324002E29D3 /* cat_like3a.mp3 */; };
+		FE45F41924050947002E29D3 /* ShowToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45F41724050947002E29D3 /* ShowToastView.swift */; };
+		FE45F41A24050947002E29D3 /* ShowToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE45F41824050947002E29D3 /* ShowToastView.xib */; };
+		FE45F41C24051933002E29D3 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45F41B24051933002E29D3 /* ScoreViewController.swift */; };
+		FE45F42024051B8D002E29D3 /* ScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45F41E24051B8D002E29D3 /* ScoreTableViewCell.swift */; };
+		FE45F42124051B8D002E29D3 /* ScoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE45F41F24051B8D002E29D3 /* ScoreTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE083ADB24060B8700DC9BC8 /* shoot2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shoot2.mp3; sourceTree = "<group>"; };
+		FE1C23ED2403D664003E751E /* WhacAMole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhacAMole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1C23F02403D664003E751E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE1C23F22403D664003E751E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE1C23F42403D664003E751E /* MenuGoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuGoViewController.swift; sourceTree = "<group>"; };
+		FE1C23F72403D664003E751E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE1C23F92403D665003E751E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE1C23FC2403D665003E751E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE1C23FE2403D665003E751E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE45F3D92404B7F0002E29D3 /* [MapleStory BGM] Henesys Floral Life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[MapleStory BGM] Henesys Floral Life.mp3"; sourceTree = "<group>"; };
+		FE45F40B2404FCDE002E29D3 /* GameStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStartViewController.swift; sourceTree = "<group>"; };
+		FE45F40D2404FDDE002E29D3 /* [MapleStory BGM] Kerning Square Field.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[MapleStory BGM] Kerning Square Field.mp3"; sourceTree = "<group>"; };
+		FE45F40F2404FE1A002E29D3 /* GameStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStartView.swift; sourceTree = "<group>"; };
+		FE45F41124050324002E29D3 /* cat_like1a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat_like1a.mp3; sourceTree = "<group>"; };
+		FE45F41224050324002E29D3 /* stabbing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stabbing.mp3; sourceTree = "<group>"; };
+		FE45F41324050324002E29D3 /* cat_like3a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat_like3a.mp3; sourceTree = "<group>"; };
+		FE45F41724050947002E29D3 /* ShowToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowToastView.swift; sourceTree = "<group>"; };
+		FE45F41824050947002E29D3 /* ShowToastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowToastView.xib; sourceTree = "<group>"; };
+		FE45F41B24051933002E29D3 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		FE45F41E24051B8D002E29D3 /* ScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewCell.swift; sourceTree = "<group>"; };
+		FE45F41F24051B8D002E29D3 /* ScoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScoreTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE1C23EA2403D664003E751E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE1C23E42403D664003E751E = {
+			isa = PBXGroup;
+			children = (
+				FE1C23EF2403D664003E751E /* WhacAMole */,
+				FE1C23EE2403D664003E751E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE1C23EE2403D664003E751E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE1C23ED2403D664003E751E /* WhacAMole.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE1C23EF2403D664003E751E /* WhacAMole */ = {
+			isa = PBXGroup;
+			children = (
+				FE45F41D2405194F002E29D3 /* Song */,
+				FE1C24052403E219003E751E /* ViewController */,
+				FE1C24042403E214003E751E /* View */,
+				FE1C23F02403D664003E751E /* AppDelegate.swift */,
+				FE1C23F22403D664003E751E /* SceneDelegate.swift */,
+				FE1C23F92403D665003E751E /* Assets.xcassets */,
+				FE1C23FB2403D665003E751E /* LaunchScreen.storyboard */,
+				FE1C23FE2403D665003E751E /* Info.plist */,
+			);
+			path = WhacAMole;
+			sourceTree = "<group>";
+		};
+		FE1C24042403E214003E751E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE1C23F62403D664003E751E /* Main.storyboard */,
+				FE45F40F2404FE1A002E29D3 /* GameStartView.swift */,
+				FE45F41724050947002E29D3 /* ShowToastView.swift */,
+				FE45F41824050947002E29D3 /* ShowToastView.xib */,
+				FE45F41E24051B8D002E29D3 /* ScoreTableViewCell.swift */,
+				FE45F41F24051B8D002E29D3 /* ScoreTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE1C24052403E219003E751E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FE1C23F42403D664003E751E /* MenuGoViewController.swift */,
+				FE45F40B2404FCDE002E29D3 /* GameStartViewController.swift */,
+				FE45F41B24051933002E29D3 /* ScoreViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FE45F41D2405194F002E29D3 /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				FE45F3D92404B7F0002E29D3 /* [MapleStory BGM] Henesys Floral Life.mp3 */,
+				FE45F40D2404FDDE002E29D3 /* [MapleStory BGM] Kerning Square Field.mp3 */,
+				FE45F41124050324002E29D3 /* cat_like1a.mp3 */,
+				FE45F41324050324002E29D3 /* cat_like3a.mp3 */,
+				FE083ADB24060B8700DC9BC8 /* shoot2.mp3 */,
+				FE45F41224050324002E29D3 /* stabbing.mp3 */,
+			);
+			path = Song;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE1C23EC2403D664003E751E /* WhacAMole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1C24012403D665003E751E /* Build configuration list for PBXNativeTarget "WhacAMole" */;
+			buildPhases = (
+				FE1C23E92403D664003E751E /* Sources */,
+				FE1C23EA2403D664003E751E /* Frameworks */,
+				FE1C23EB2403D664003E751E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhacAMole;
+			productName = WhacAMole;
+			productReference = FE1C23ED2403D664003E751E /* WhacAMole.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE1C23E52403D664003E751E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Hira;
+				TargetAttributes = {
+					FE1C23EC2403D664003E751E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FE1C23E82403D664003E751E /* Build configuration list for PBXProject "WhacAMole" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE1C23E42403D664003E751E;
+			productRefGroup = FE1C23EE2403D664003E751E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE1C23EC2403D664003E751E /* WhacAMole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE1C23EB2403D664003E751E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE083ADC24060B8700DC9BC8 /* shoot2.mp3 in Resources */,
+				FE45F42124051B8D002E29D3 /* ScoreTableViewCell.xib in Resources */,
+				FE45F41A24050947002E29D3 /* ShowToastView.xib in Resources */,
+				FE1C23FD2403D665003E751E /* LaunchScreen.storyboard in Resources */,
+				FE1C23FA2403D665003E751E /* Assets.xcassets in Resources */,
+				FE45F41524050324002E29D3 /* stabbing.mp3 in Resources */,
+				FE45F41424050324002E29D3 /* cat_like1a.mp3 in Resources */,
+				FE45F41624050324002E29D3 /* cat_like3a.mp3 in Resources */,
+				FE45F40E2404FDDE002E29D3 /* [MapleStory BGM] Kerning Square Field.mp3 in Resources */,
+				FE1C23F82403D664003E751E /* Main.storyboard in Resources */,
+				FE45F3DA2404B7F0002E29D3 /* [MapleStory BGM] Henesys Floral Life.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE1C23E92403D664003E751E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE45F41C24051933002E29D3 /* ScoreViewController.swift in Sources */,
+				FE1C23F52403D664003E751E /* MenuGoViewController.swift in Sources */,
+				FE45F42024051B8D002E29D3 /* ScoreTableViewCell.swift in Sources */,
+				FE45F4102404FE1A002E29D3 /* GameStartView.swift in Sources */,
+				FE1C23F12403D664003E751E /* AppDelegate.swift in Sources */,
+				FE1C23F32403D664003E751E /* SceneDelegate.swift in Sources */,
+				FE45F40C2404FCDE002E29D3 /* GameStartViewController.swift in Sources */,
+				FE45F41924050947002E29D3 /* ShowToastView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE1C23F62403D664003E751E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE1C23F72403D664003E751E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE1C23FB2403D665003E751E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE1C23FC2403D665003E751E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE1C23FF2403D665003E751E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE1C24002403D665003E751E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE1C24022403D665003E751E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0226;
+				DEVELOPMENT_TEAM = P528M25JRV;
+				INFOPLIST_FILE = WhacAMole/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wam.whacamolee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = whacamolee_dev;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE1C24032403D665003E751E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0226;
+				DEVELOPMENT_TEAM = P528M25JRV;
+				INFOPLIST_FILE = WhacAMole/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wam.whacamolee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = whacamolee_store;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE1C23E82403D664003E751E /* Build configuration list for PBXProject "WhacAMole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1C23FF2403D665003E751E /* Debug */,
+				FE1C24002403D665003E751E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1C24012403D665003E751E /* Build configuration list for PBXNativeTarget "WhacAMole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1C24022403D665003E751E /* Debug */,
+				FE1C24032403D665003E751E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE1C23E52403D664003E751E /* Project object */;
+}

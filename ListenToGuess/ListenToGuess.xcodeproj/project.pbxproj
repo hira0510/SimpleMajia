@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		235F569CC55A71DEDDF0078F /* Pods_ListenToGuess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B08B4FAE17CD00B253B285D /* Pods_ListenToGuess.framework */; };
+		FE2B84AC274DD74400CF5BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2B84AB274DD74400CF5BB6 /* AppDelegate.swift */; };
+		FE2B84B0274DD74400CF5BB6 /* ListenToGuessNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2B84AF274DD74400CF5BB6 /* ListenToGuessNavViewController.swift */; };
+		FE2B84B3274DD74400CF5BB6 /* ListenToGuess.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2B84B1274DD74400CF5BB6 /* ListenToGuess.storyboard */; };
+		FE2B84B5274DD74500CF5BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2B84B4274DD74500CF5BB6 /* Assets.xcassets */; };
+		FE2B84B8274DD74500CF5BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2B84B6274DD74500CF5BB6 /* LaunchScreen.storyboard */; };
+		FEBA21D32750CBD5003CD279 /* ListenToGuessHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBA21D22750CBD5003CD279 /* ListenToGuessHistoryViewController.swift */; };
+		FEF519EE274F4DB700D9B94E /* lives.json in Resources */ = {isa = PBXBuildFile; fileRef = FEF519ED274F4DB700D9B94E /* lives.json */; };
+		FEF519F1274F4E4E00D9B94E /* ListenToGuessPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF519F0274F4E4E00D9B94E /* ListenToGuessPlayViewController.swift */; };
+		FEF519F3274F4E5A00D9B94E /* ListenToGuessListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF519F2274F4E5A00D9B94E /* ListenToGuessListViewController.swift */; };
+		FEF519F5274F4E8000D9B94E /* ListenToGuessPlayViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF519F4274F4E8000D9B94E /* ListenToGuessPlayViews.swift */; };
+		FEF519F7274F4E8B00D9B94E /* ListenToGuessPlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF519F6274F4E8B00D9B94E /* ListenToGuessPlayViewModel.swift */; };
+		FEF51A75274F7A7400D9B94E /* Ludibrium Flying in a Blue Dream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A2F274F7A7100D9B94E /* Ludibrium Flying in a Blue Dream.mp3 */; };
+		FEF51A76274F7A7400D9B94E /* Kerning Square.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A30274F7A7100D9B94E /* Kerning Square.mp3 */; };
+		FEF51A77274F7A7400D9B94E /* White Herb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A31274F7A7100D9B94E /* White Herb.mp3 */; };
+		FEF51A78274F7A7400D9B94E /* Interior of Nautilus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A32274F7A7100D9B94E /* Interior of Nautilus.mp3 */; };
+		FEF51A79274F7A7400D9B94E /* Ludibrium Funny Time Maker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A33274F7A7100D9B94E /* Ludibrium Funny Time Maker.mp3 */; };
+		FEF51A7A274F7A7400D9B94E /* Shining Sea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A34274F7A7100D9B94E /* Shining Sea.mp3 */; };
+		FEF51A7B274F7A7400D9B94E /* Haunted House.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A35274F7A7100D9B94E /* Haunted House.mp3 */; };
+		FEF51A7D274F7A7400D9B94E /* Ludibrium Fairytale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A37274F7A7100D9B94E /* Ludibrium Fairytale.mp3 */; };
+		FEF51A7E274F7A7400D9B94E /* Ellinia Missing You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A38274F7A7100D9B94E /* Ellinia Missing You.mp3 */; };
+		FEF51A7F274F7A7400D9B94E /* Title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A39274F7A7100D9B94E /* Title.mp3 */; };
+		FEF51A80274F7A7400D9B94E /* Ariant Hot Desert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A3A274F7A7100D9B94E /* Ariant Hot Desert.mp3 */; };
+		FEF51A81274F7A7400D9B94E /* Ereve Queens Garden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A3B274F7A7100D9B94E /* Ereve Queens Garden.mp3 */; };
+		FEF51A82274F7A7400D9B94E /* Leafre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A3C274F7A7100D9B94E /* Leafre.mp3 */; };
+		FEF51A83274F7A7400D9B94E /* Sleepywood Ancient Move.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A3D274F7A7100D9B94E /* Sleepywood Ancient Move.mp3 */; };
+		FEF51A84274F7A7400D9B94E /* Orbis Shinin Harbor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A3E274F7A7100D9B94E /* Orbis Shinin Harbor.mp3 */; };
+		FEF51A85274F7A7400D9B94E /* Ariant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A3F274F7A7100D9B94E /* Ariant.mp3 */; };
+		FEF51A86274F7A7400D9B94E /* Mu Lung Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A40274F7A7100D9B94E /* Mu Lung Forest.mp3 */; };
+		FEF51A87274F7A7400D9B94E /* Castle Outside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A41274F7A7100D9B94E /* Castle Outside.mp3 */; };
+		FEF51A88274F7A7400D9B94E /* Aqua Dungeon Deep Sea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A42274F7A7100D9B94E /* Aqua Dungeon Deep Sea.mp3 */; };
+		FEF51A89274F7A7400D9B94E /* Kerning Square Subway.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A43274F7A7100D9B94E /* Kerning Square Subway.mp3 */; };
+		FEF51A8A274F7A7400D9B94E /* Ludibrium Dark Shadow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A44274F7A7200D9B94E /* Ludibrium Dark Shadow.mp3 */; };
+		FEF51A8B274F7A7400D9B94E /* Mushroom Castle Blue Sky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A45274F7A7200D9B94E /* Mushroom Castle Blue Sky.mp3 */; };
+		FEF51A8C274F7A7400D9B94E /* Mushroom Shrine Feeling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A46274F7A7200D9B94E /* Mushroom Shrine Feeling.mp3 */; };
+		FEF51A8D274F7A7400D9B94E /* Henesys Go Picnic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A47274F7A7200D9B94E /* Henesys Go Picnic.mp3 */; };
+		FEF51A8E274F7A7400D9B94E /* Cava Bien.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A48274F7A7200D9B94E /* Cava Bien.mp3 */; };
+		FEF51A8F274F7A7400D9B94E /* El Nath Snowy Village.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A49274F7A7200D9B94E /* El Nath Snowy Village.mp3 */; };
+		FEF51A90274F7A7400D9B94E /* Perion Highland Star.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A4A274F7A7200D9B94E /* Perion Highland Star.mp3 */; };
+		FEF51A91274F7A7400D9B94E /* Night Market.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A4B274F7A7200D9B94E /* Night Market.mp3 */; };
+		FEF51A92274F7A7400D9B94E /* Sleepywood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A4C274F7A7200D9B94E /* Sleepywood.mp3 */; };
+		FEF51A93274F7A7400D9B94E /* Mu Lung Hill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A4D274F7A7200D9B94E /* Mu Lung Hill.mp3 */; };
+		FEF51A94274F7A7400D9B94E /* Showa Yume.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A4E274F7A7200D9B94E /* Showa Yume.mp3 */; };
+		FEF51A95274F7A7400D9B94E /* Leafre Minars Dream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A4F274F7A7200D9B94E /* Leafre Minars Dream.mp3 */; };
+		FEF51A96274F7A7400D9B94E /* Herb Town Pirate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A50274F7A7200D9B94E /* Herb Town Pirate.mp3 */; };
+		FEF51A97274F7A7400D9B94E /* Kerning City Bad Guys.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A51274F7A7200D9B94E /* Kerning City Bad Guys.mp3 */; };
+		FEF51A98274F7A7400D9B94E /* China Go Shanghai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A52274F7A7200D9B94E /* China Go Shanghai.mp3 */; };
+		FEF51A99274F7A7400D9B94E /* Ludibrium Fantasia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A53274F7A7200D9B94E /* Ludibrium Fantasia.mp3 */; };
+		FEF51A9A274F7A7400D9B94E /* Orbis Arab Pirate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A54274F7A7200D9B94E /* Orbis Arab Pirate.mp3 */; };
+		FEF51A9B274F7A7400D9B94E /* Ereve Raindrop Flower.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A55274F7A7200D9B94E /* Ereve Raindrop Flower.mp3 */; };
+		FEF51A9C274F7A7400D9B94E /* Ludibrium Fantastic Thinking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A56274F7A7300D9B94E /* Ludibrium Fantastic Thinking.mp3 */; };
+		FEF51A9D274F7A7400D9B94E /* Blue World.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A57274F7A7300D9B94E /* Blue World.mp3 */; };
+		FEF51A9E274F7A7400D9B94E /* Florina Beach Beachway.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A58274F7A7300D9B94E /* Florina Beach Beachway.mp3 */; };
+		FEF51A9F274F7A7400D9B94E /* Lith Harbor Above the Treetops.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A59274F7A7300D9B94E /* Lith Harbor Above the Treetops.mp3 */; };
+		FEF51AA0274F7A7400D9B94E /* Maple Island First Step Master.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A5A274F7A7300D9B94E /* Maple Island First Step Master.mp3 */; };
+		FEF51AA1274F7A7400D9B94E /* Kerning Square Field.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A5B274F7A7300D9B94E /* Kerning Square Field.mp3 */; };
+		FEF51AA2274F7A7400D9B94E /* Henesys Rest N Peace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A5C274F7A7300D9B94E /* Henesys Rest N Peace.mp3 */; };
+		FEF51AA3274F7A7400D9B94E /* Ludibrium Waltz for Work.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A5D274F7A7300D9B94E /* Ludibrium Waltz for Work.mp3 */; };
+		FEF51AA4274F7A7400D9B94E /* Ellinia When the Morning Comes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A5E274F7A7300D9B94E /* Ellinia When the Morning Comes.mp3 */; };
+		FEF51AA5274F7A7400D9B94E /* Cash Shop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A5F274F7A7300D9B94E /* Cash Shop.mp3 */; };
+		FEF51AA6274F7A7400D9B94E /* Ancient Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A60274F7A7300D9B94E /* Ancient Forest.mp3 */; };
+		FEF51AA7274F7A7400D9B94E /* Henesys Floral Life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A61274F7A7300D9B94E /* Henesys Floral Life.mp3 */; };
+		FEF51AA8274F7A7400D9B94E /* Ludibrium Theyre Menacing You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A62274F7A7300D9B94E /* Ludibrium Theyre Menacing You.mp3 */; };
+		FEF51AA9274F7A7400D9B94E /* Ludibrium Timeless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A63274F7A7300D9B94E /* Ludibrium Timeless.mp3 */; };
+		FEF51AAA274F7A7400D9B94E /* Ellin Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A64274F7A7300D9B94E /* Ellin Forest.mp3 */; };
+		FEF51AAB274F7A7400D9B94E /* Orbis Come with Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A65274F7A7300D9B94E /* Orbis Come with Me.mp3 */; };
+		FEF51AAC274F7A7400D9B94E /* Orbis Tower of Goddess.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A66274F7A7400D9B94E /* Orbis Tower of Goddess.mp3 */; };
+		FEF51AAD274F7A7400D9B94E /* Magatia Dispute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A67274F7A7400D9B94E /* Magatia Dispute.mp3 */; };
+		FEF51AAE274F7A7400D9B94E /* Nautilus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A68274F7A7400D9B94E /* Nautilus.mp3 */; };
+		FEF51AAF274F7A7400D9B94E /* Perion Nightmare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A69274F7A7400D9B94E /* Perion Nightmare.mp3 */; };
+		FEF51AB0274F7A7400D9B94E /* Sleepywood Evil Eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A6A274F7A7400D9B94E /* Sleepywood Evil Eyes.mp3 */; };
+		FEF51AB1274F7A7400D9B94E /* Malaysia Highland.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A6B274F7A7400D9B94E /* Malaysia Highland.mp3 */; };
+		FEF51AB2274F7A7400D9B94E /* Ludibrium Wherever You Are.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A6C274F7A7400D9B94E /* Ludibrium Wherever You Are.mp3 */; };
+		FEF51AB3274F7A7400D9B94E /* El Nath Warm Regard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A6D274F7A7400D9B94E /* El Nath Warm Regard.mp3 */; };
+		FEF51AB4274F7A7400D9B94E /* Kerning City Jungle Book.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A6E274F7A7400D9B94E /* Kerning City Jungle Book.mp3 */; };
+		FEF51AB5274F7A7400D9B94E /* Aquarium.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A6F274F7A7400D9B94E /* Aquarium.mp3 */; };
+		FEF51AB6274F7A7400D9B94E /* Ellinia Moonlight Shadow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A70274F7A7400D9B94E /* Ellinia Moonlight Shadow.mp3 */; };
+		FEF51AB7274F7A7400D9B94E /* Orbis Plot of Pixie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A71274F7A7400D9B94E /* Orbis Plot of Pixie.mp3 */; };
+		FEF51AB8274F7A7400D9B94E /* Korean Folk Town Downtown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A72274F7A7400D9B94E /* Korean Folk Town Downtown.mp3 */; };
+		FEF51AB9274F7A7400D9B94E /* Ludibrium High Enough.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A73274F7A7400D9B94E /* Ludibrium High Enough.mp3 */; };
+		FEF51ABA274F7A7400D9B94E /* Orbis Upon the Sky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF51A74274F7A7400D9B94E /* Orbis Upon the Sky.mp3 */; };
+		FEF51ABC274F9DC800D9B94E /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF51ABB274F9DC800D9B94E /* GameOverView.swift */; };
+		FEF51ABE274F9DD100D9B94E /* GameOverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF51ABD274F9DD100D9B94E /* GameOverView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B08B4FAE17CD00B253B285D /* Pods_ListenToGuess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListenToGuess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9234C0235A4D36D705DB18 /* Pods-ListenToGuess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListenToGuess.release.xcconfig"; path = "Target Support Files/Pods-ListenToGuess/Pods-ListenToGuess.release.xcconfig"; sourceTree = "<group>"; };
+		81479AF29EC9C0CCC36376D8 /* Pods-ListenToGuess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListenToGuess.debug.xcconfig"; path = "Target Support Files/Pods-ListenToGuess/Pods-ListenToGuess.debug.xcconfig"; sourceTree = "<group>"; };
+		FE2B84A8274DD74400CF5BB6 /* ListenToGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListenToGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2B84AB274DD74400CF5BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE2B84AF274DD74400CF5BB6 /* ListenToGuessNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenToGuessNavViewController.swift; sourceTree = "<group>"; };
+		FE2B84B2274DD74400CF5BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ListenToGuess.storyboard; sourceTree = "<group>"; };
+		FE2B84B4274DD74500CF5BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE2B84B7274DD74500CF5BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE2B84B9274DD74500CF5BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBA21D22750CBD5003CD279 /* ListenToGuessHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenToGuessHistoryViewController.swift; sourceTree = "<group>"; };
+		FEF519ED274F4DB700D9B94E /* lives.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lives.json; sourceTree = "<group>"; };
+		FEF519F0274F4E4E00D9B94E /* ListenToGuessPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenToGuessPlayViewController.swift; sourceTree = "<group>"; };
+		FEF519F2274F4E5A00D9B94E /* ListenToGuessListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenToGuessListViewController.swift; sourceTree = "<group>"; };
+		FEF519F4274F4E8000D9B94E /* ListenToGuessPlayViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenToGuessPlayViews.swift; sourceTree = "<group>"; };
+		FEF519F6274F4E8B00D9B94E /* ListenToGuessPlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenToGuessPlayViewModel.swift; sourceTree = "<group>"; };
+		FEF51A2F274F7A7100D9B94E /* Ludibrium Flying in a Blue Dream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ludibrium Flying in a Blue Dream.mp3"; sourceTree = "<group>"; };
+		FEF51A30274F7A7100D9B94E /* Kerning Square.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kerning Square.mp3"; sourceTree = "<group>"; };
+		FEF51A31274F7A7100D9B94E /* White Herb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "White Herb.mp3"; sourceTree = "<group>"; };
+		FEF51A32274F7A7100D9B94E /* Interior of Nautilus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Interior of Nautilus.mp3"; sourceTree = "<group>"; };
+		FEF51A33274F7A7100D9B94E /* Ludibrium Funny Time Maker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ludibrium Funny Time Maker.mp3"; sourceTree = "<group>"; };
+		FEF51A34274F7A7100D9B94E /* Shining Sea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shining Sea.mp3"; sourceTree = "<group>"; };
+		FEF51A35274F7A7100D9B94E /* Haunted House.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Haunted House.mp3"; sourceTree = "<group>"; };
+		FEF51A37274F7A7100D9B94E /* Ludibrium Fairytale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ludibrium Fairytale.mp3"; sourceTree = "<group>"; };
+		FEF51A38274F7A7100D9B94E /* Ellinia Missing You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ellinia Missing You.mp3"; sourceTree = "<group>"; };
+		FEF51A39274F7A7100D9B94E /* Title.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Title.mp3; sourceTree = "<group>"; };
+		FEF51A3A274F7A7100D9B94E /* Ariant Hot Desert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ariant Hot Desert.mp3"; sourceTree = "<group>"; };
+		FEF51A3B274F7A7100D9B94E /* Ereve Queens Garden.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ereve Queens Garden.mp3"; sourceTree = "<group>"; };
+		FEF51A3C274F7A7100D9B94E /* Leafre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Leafre.mp3; sourceTree = "<group>"; };
+		FEF51A3D274F7A7100D9B94E /* Sleepywood Ancient Move.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sleepywood Ancient Move.mp3"; sourceTree = "<group>"; };
+		FEF51A3E274F7A7100D9B94E /* Orbis Shinin Harbor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Orbis Shinin Harbor.mp3"; sourceTree = "<group>"; };
+		FEF51A3F274F7A7100D9B94E /* Ariant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ariant.mp3; sourceTree = "<group>"; };
+		FEF51A40274F7A7100D9B94E /* Mu Lung Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mu Lung Forest.mp3"; sourceTree = "<group>"; };
+		FEF51A41274F7A7100D9B94E /* Castle Outside.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Castle Outside.mp3"; sourceTree = "<group>"; };
+		FEF51A42274F7A7100D9B94E /* Aqua Dungeon Deep Sea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Aqua Dungeon Deep Sea.mp3"; sourceTree = "<group>"; };
+		FEF51A43274F7A7100D9B94E /* Kerning Square Subway.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kerning Square Subway.mp3"; sourceTree = "<group>"; };
+		FEF51A44274F7A7200D9B94E /* Ludibrium Dark Shadow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ludibrium Dark Shadow.mp3"; sourceTree = "<group>"; };
+		FEF51A45274F7A7200D9B94E /* Mushroom Castle Blue Sky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mushroom Castle Blue Sky.mp3"; sourceTree = "<group>"; };
+		FEF51A46274F7A7200D9B94E /* Mushroom Shrine Feeling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mushroom Shrine Feeling.mp3"; sourceTree = "<group>"; };
+		FEF51A47274F7A7200D9B94E /* Henesys Go Picnic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Henesys Go Picnic.mp3"; sourceTree = "<group>"; };
+		FEF51A48274F7A7200D9B94E /* Cava Bien.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cava Bien.mp3"; sourceTree = "<group>"; };
+		FEF51A49274F7A7200D9B94E /* El Nath Snowy Village.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "El Nath Snowy Village.mp3"; sourceTree = "<group>"; };
+		FEF51A4A274F7A7200D9B94E /* Perion Highland Star.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Perion Highland Star.mp3"; sourceTree = "<group>"; };
+		FEF51A4B274F7A7200D9B94E /* Night Market.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Night Market.mp3"; sourceTree = "<group>"; };
+		FEF51A4C274F7A7200D9B94E /* Sleepywood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sleepywood.mp3; sourceTree = "<group>"; };
+		FEF51A4D274F7A7200D9B94E /* Mu Lung Hill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mu Lung Hill.mp3"; sourceTree = "<group>"; };
+		FEF51A4E274F7A7200D9B94E /* Showa Yume.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Showa Yume.mp3"; sourceTree = "<group>"; };
+		FEF51A4F274F7A7200D9B94E /* Leafre Minars Dream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Leafre Minars Dream.mp3"; sourceTree = "<group>"; };
+		FEF51A50274F7A7200D9B94E /* Herb Town Pirate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Herb Town Pirate.mp3"; sourceTree = "<group>"; };
+		FEF51A51274F7A7200D9B94E /* Kerning City Bad Guys.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kerning City Bad Guys.mp3"; sourceTree = "<group>"; };
+		FEF51A52274F7A7200D9B94E /* China Go Shanghai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "China Go Shanghai.mp3"; sourceTree = "<group>"; };
+		FEF51A53274F7A7200D9B94E /* Ludibrium Fantasia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ludibrium Fantasia.mp3"; sourceTree = "<group>"; };
+		FEF51A54274F7A7200D9B94E /* Orbis Arab Pirate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Orbis Arab Pirate.mp3"; sourceTree = "<group>"; };
+		FEF51A55274F7A7200D9B94E /* Ereve Raindrop Flower.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ereve Raindrop Flower.mp3"; sourceTree = "<group>"; };
+		FEF51A56274F7A7300D9B94E /* Ludibrium Fantastic Thinking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ludibrium Fantastic Thinking.mp3"; sourceTree = "<group>"; };
+		FEF51A57274F7A7300D9B94E /* Blue World.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blue World.mp3"; sourceTree = "<group>"; };
+		FEF51A58274F7A7300D9B94E /* Florina Beach Beachway.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Florina Beach Beachway.mp3"; sourceTree = "<group>"; };
+		FEF51A59274F7A7300D9B94E /* Lith Harbor Above the Treetops.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lith Harbor Above the Treetops.mp3"; sourceTree = "<group>"; };
+		FEF51A5A274F7A7300D9B94E /* Maple Island First Step Master.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maple Island First Step Master.mp3"; sourceTree = "<group>"; };
+		FEF51A5B274F7A7300D9B94E /* Kerning Square Field.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kerning Square Field.mp3"; sourceTree = "<group>"; };
+		FEF51A5C274F7A7300D9B94E /* Henesys Rest N Peace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Henesys Rest N Peace.mp3"; sourceTree = "<group>"; };
+		FEF51A5D274F7A7300D9B94E /* Ludibrium Waltz for Work.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ludibrium Waltz for Work.mp3"; sourceTree = "<group>"; };
+		FEF51A5E274F7A7300D9B94E /* Ellinia When the Morning Comes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ellinia When the Morning Comes.mp3"; sourceTree = "<group>"; };
+		FEF51A5F274F7A7300D9B94E /* Cash Shop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cash Shop.mp3"; sourceTree = "<group>"; };
+		FEF51A60274F7A7300D9B94E /* Ancient Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ancient Forest.mp3"; sourceTree = "<group>"; };
+		FEF51A61274F7A7300D9B94E /* Henesys Floral Life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Henesys Floral Life.mp3"; sourceTree = "<group>"; };
+		FEF51A62274F7A7300D9B94E /* Ludibrium Theyre Menacing You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ludibrium Theyre Menacing You.mp3"; sourceTree = "<group>"; };
+		FEF51A63274F7A7300D9B94E /* Ludibrium Timeless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ludibrium Timeless.mp3"; sourceTree = "<group>"; };
+		FEF51A64274F7A7300D9B94E /* Ellin Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ellin Forest.mp3"; sourceTree = "<group>"; };
+		FEF51A65274F7A7300D9B94E /* Orbis Come with Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Orbis Come with Me.mp3"; sourceTree = "<group>"; };
+		FEF51A66274F7A7400D9B94E /* Orbis Tower of Goddess.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Orbis Tower of Goddess.mp3"; sourceTree = "<group>"; };
+		FEF51A67274F7A7400D9B94E /* Magatia Dispute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Magatia Dispute.mp3"; sourceTree = "<group>"; };
+		FEF51A68274F7A7400D9B94E /* Nautilus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Nautilus.mp3; sourceTree = "<group>"; };
+		FEF51A69274F7A7400D9B94E /* Perion Nightmare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Perion Nightmare.mp3"; sourceTree = "<group>"; };
+		FEF51A6A274F7A7400D9B94E /* Sleepywood Evil Eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sleepywood Evil Eyes.mp3"; sourceTree = "<group>"; };
+		FEF51A6B274F7A7400D9B94E /* Malaysia Highland.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Malaysia Highland.mp3"; sourceTree = "<group>"; };
+		FEF51A6C274F7A7400D9B94E /* Ludibrium Wherever You Are.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ludibrium Wherever You Are.mp3"; sourceTree = "<group>"; };
+		FEF51A6D274F7A7400D9B94E /* El Nath Warm Regard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "El Nath Warm Regard.mp3"; sourceTree = "<group>"; };
+		FEF51A6E274F7A7400D9B94E /* Kerning City Jungle Book.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kerning City Jungle Book.mp3"; sourceTree = "<group>"; };
+		FEF51A6F274F7A7400D9B94E /* Aquarium.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Aquarium.mp3; sourceTree = "<group>"; };
+		FEF51A70274F7A7400D9B94E /* Ellinia Moonlight Shadow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ellinia Moonlight Shadow.mp3"; sourceTree = "<group>"; };
+		FEF51A71274F7A7400D9B94E /* Orbis Plot of Pixie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Orbis Plot of Pixie.mp3"; sourceTree = "<group>"; };
+		FEF51A72274F7A7400D9B94E /* Korean Folk Town Downtown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Korean Folk Town Downtown.mp3"; sourceTree = "<group>"; };
+		FEF51A73274F7A7400D9B94E /* Ludibrium High Enough.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ludibrium High Enough.mp3"; sourceTree = "<group>"; };
+		FEF51A74274F7A7400D9B94E /* Orbis Upon the Sky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Orbis Upon the Sky.mp3"; sourceTree = "<group>"; };
+		FEF51ABB274F9DC800D9B94E /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		FEF51ABD274F9DD100D9B94E /* GameOverView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameOverView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE2B84A5274DD74400CF5BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235F569CC55A71DEDDF0078F /* Pods_ListenToGuess.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C205FB28E77236B31F2C20F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81479AF29EC9C0CCC36376D8 /* Pods-ListenToGuess.debug.xcconfig */,
+				5E9234C0235A4D36D705DB18 /* Pods-ListenToGuess.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0648EC9BFA1A25A8723DA56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B08B4FAE17CD00B253B285D /* Pods_ListenToGuess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE2B849F274DD74400CF5BB6 = {
+			isa = PBXGroup;
+			children = (
+				FE2B84AA274DD74400CF5BB6 /* ListenToGuess */,
+				FE2B84A9274DD74400CF5BB6 /* Products */,
+				6C205FB28E77236B31F2C20F /* Pods */,
+				B0648EC9BFA1A25A8723DA56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE2B84A9274DD74400CF5BB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE2B84A8274DD74400CF5BB6 /* ListenToGuess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE2B84AA274DD74400CF5BB6 /* ListenToGuess */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA21D12750CB62003CD279 /* History */,
+				FEF51A2D274F68B500D9B94E /* List */,
+				FEF51A2E274F68BB00D9B94E /* Play */,
+				FEF519FA274F68A900D9B94E /* Model */,
+				FE2B84AB274DD74400CF5BB6 /* AppDelegate.swift */,
+				FE2B84B1274DD74400CF5BB6 /* ListenToGuess.storyboard */,
+				FEF519ED274F4DB700D9B94E /* lives.json */,
+				FE2B84B4274DD74500CF5BB6 /* Assets.xcassets */,
+				FE2B84B6274DD74500CF5BB6 /* LaunchScreen.storyboard */,
+				FE2B84B9274DD74500CF5BB6 /* Info.plist */,
+			);
+			path = ListenToGuess;
+			sourceTree = "<group>";
+		};
+		FEBA21D12750CB62003CD279 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA21D22750CBD5003CD279 /* ListenToGuessHistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		FEF519FA274F68A900D9B94E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEF51A60274F7A7300D9B94E /* Ancient Forest.mp3 */,
+				FEF51A42274F7A7100D9B94E /* Aqua Dungeon Deep Sea.mp3 */,
+				FEF51A6F274F7A7400D9B94E /* Aquarium.mp3 */,
+				FEF51A3A274F7A7100D9B94E /* Ariant Hot Desert.mp3 */,
+				FEF51A3F274F7A7100D9B94E /* Ariant.mp3 */,
+				FEF51A57274F7A7300D9B94E /* Blue World.mp3 */,
+				FEF51A5F274F7A7300D9B94E /* Cash Shop.mp3 */,
+				FEF51A41274F7A7100D9B94E /* Castle Outside.mp3 */,
+				FEF51A48274F7A7200D9B94E /* Cava Bien.mp3 */,
+				FEF51A52274F7A7200D9B94E /* China Go Shanghai.mp3 */,
+				FEF51A49274F7A7200D9B94E /* El Nath Snowy Village.mp3 */,
+				FEF51A6D274F7A7400D9B94E /* El Nath Warm Regard.mp3 */,
+				FEF51A64274F7A7300D9B94E /* Ellin Forest.mp3 */,
+				FEF51A38274F7A7100D9B94E /* Ellinia Missing You.mp3 */,
+				FEF51A70274F7A7400D9B94E /* Ellinia Moonlight Shadow.mp3 */,
+				FEF51A5E274F7A7300D9B94E /* Ellinia When the Morning Comes.mp3 */,
+				FEF51A3B274F7A7100D9B94E /* Ereve Queens Garden.mp3 */,
+				FEF51A55274F7A7200D9B94E /* Ereve Raindrop Flower.mp3 */,
+				FEF51A58274F7A7300D9B94E /* Florina Beach Beachway.mp3 */,
+				FEF51A35274F7A7100D9B94E /* Haunted House.mp3 */,
+				FEF51A61274F7A7300D9B94E /* Henesys Floral Life.mp3 */,
+				FEF51A47274F7A7200D9B94E /* Henesys Go Picnic.mp3 */,
+				FEF51A5C274F7A7300D9B94E /* Henesys Rest N Peace.mp3 */,
+				FEF51A50274F7A7200D9B94E /* Herb Town Pirate.mp3 */,
+				FEF51A32274F7A7100D9B94E /* Interior of Nautilus.mp3 */,
+				FEF51A51274F7A7200D9B94E /* Kerning City Bad Guys.mp3 */,
+				FEF51A6E274F7A7400D9B94E /* Kerning City Jungle Book.mp3 */,
+				FEF51A5B274F7A7300D9B94E /* Kerning Square Field.mp3 */,
+				FEF51A43274F7A7100D9B94E /* Kerning Square Subway.mp3 */,
+				FEF51A30274F7A7100D9B94E /* Kerning Square.mp3 */,
+				FEF51A72274F7A7400D9B94E /* Korean Folk Town Downtown.mp3 */,
+				FEF51A4F274F7A7200D9B94E /* Leafre Minars Dream.mp3 */,
+				FEF51A3C274F7A7100D9B94E /* Leafre.mp3 */,
+				FEF51A59274F7A7300D9B94E /* Lith Harbor Above the Treetops.mp3 */,
+				FEF51A44274F7A7200D9B94E /* Ludibrium Dark Shadow.mp3 */,
+				FEF51A37274F7A7100D9B94E /* Ludibrium Fairytale.mp3 */,
+				FEF51A53274F7A7200D9B94E /* Ludibrium Fantasia.mp3 */,
+				FEF51A56274F7A7300D9B94E /* Ludibrium Fantastic Thinking.mp3 */,
+				FEF51A2F274F7A7100D9B94E /* Ludibrium Flying in a Blue Dream.mp3 */,
+				FEF51A33274F7A7100D9B94E /* Ludibrium Funny Time Maker.mp3 */,
+				FEF51A73274F7A7400D9B94E /* Ludibrium High Enough.mp3 */,
+				FEF51A62274F7A7300D9B94E /* Ludibrium Theyre Menacing You.mp3 */,
+				FEF51A63274F7A7300D9B94E /* Ludibrium Timeless.mp3 */,
+				FEF51A5D274F7A7300D9B94E /* Ludibrium Waltz for Work.mp3 */,
+				FEF51A6C274F7A7400D9B94E /* Ludibrium Wherever You Are.mp3 */,
+				FEF51A67274F7A7400D9B94E /* Magatia Dispute.mp3 */,
+				FEF51A6B274F7A7400D9B94E /* Malaysia Highland.mp3 */,
+				FEF51A5A274F7A7300D9B94E /* Maple Island First Step Master.mp3 */,
+				FEF51A40274F7A7100D9B94E /* Mu Lung Forest.mp3 */,
+				FEF51A4D274F7A7200D9B94E /* Mu Lung Hill.mp3 */,
+				FEF51A45274F7A7200D9B94E /* Mushroom Castle Blue Sky.mp3 */,
+				FEF51A46274F7A7200D9B94E /* Mushroom Shrine Feeling.mp3 */,
+				FEF51A68274F7A7400D9B94E /* Nautilus.mp3 */,
+				FEF51A4B274F7A7200D9B94E /* Night Market.mp3 */,
+				FEF51A54274F7A7200D9B94E /* Orbis Arab Pirate.mp3 */,
+				FEF51A65274F7A7300D9B94E /* Orbis Come with Me.mp3 */,
+				FEF51A71274F7A7400D9B94E /* Orbis Plot of Pixie.mp3 */,
+				FEF51A3E274F7A7100D9B94E /* Orbis Shinin Harbor.mp3 */,
+				FEF51A66274F7A7400D9B94E /* Orbis Tower of Goddess.mp3 */,
+				FEF51A74274F7A7400D9B94E /* Orbis Upon the Sky.mp3 */,
+				FEF51A4A274F7A7200D9B94E /* Perion Highland Star.mp3 */,
+				FEF51A69274F7A7400D9B94E /* Perion Nightmare.mp3 */,
+				FEF51A34274F7A7100D9B94E /* Shining Sea.mp3 */,
+				FEF51A4E274F7A7200D9B94E /* Showa Yume.mp3 */,
+				FEF51A3D274F7A7100D9B94E /* Sleepywood Ancient Move.mp3 */,
+				FEF51A6A274F7A7400D9B94E /* Sleepywood Evil Eyes.mp3 */,
+				FEF51A4C274F7A7200D9B94E /* Sleepywood.mp3 */,
+				FEF51A39274F7A7100D9B94E /* Title.mp3 */,
+				FEF51A31274F7A7100D9B94E /* White Herb.mp3 */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEF51A2D274F68B500D9B94E /* List */ = {
+			isa = PBXGroup;
+			children = (
+				FE2B84AF274DD74400CF5BB6 /* ListenToGuessNavViewController.swift */,
+				FEF519F2274F4E5A00D9B94E /* ListenToGuessListViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		FEF51A2E274F68BB00D9B94E /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				FEF519F0274F4E4E00D9B94E /* ListenToGuessPlayViewController.swift */,
+				FEF519F4274F4E8000D9B94E /* ListenToGuessPlayViews.swift */,
+				FEF519F6274F4E8B00D9B94E /* ListenToGuessPlayViewModel.swift */,
+				FEF51ABB274F9DC800D9B94E /* GameOverView.swift */,
+				FEF51ABD274F9DD100D9B94E /* GameOverView.xib */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE2B84A7274DD74400CF5BB6 /* ListenToGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2B84BC274DD74500CF5BB6 /* Build configuration list for PBXNativeTarget "ListenToGuess" */;
+			buildPhases = (
+				1D0AD2261519C38651E59358 /* [CP] Check Pods Manifest.lock */,
+				FE2B84A4274DD74400CF5BB6 /* Sources */,
+				FE2B84A5274DD74400CF5BB6 /* Frameworks */,
+				FE2B84A6274DD74400CF5BB6 /* Resources */,
+				1F7EB291D8EF1F45171280A5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListenToGuess;
+			productName = ListenToGuess;
+			productReference = FE2B84A8274DD74400CF5BB6 /* ListenToGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE2B84A0274DD74400CF5BB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FE2B84A7274DD74400CF5BB6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = FE2B84A3274DD74400CF5BB6 /* Build configuration list for PBXProject "ListenToGuess" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE2B849F274DD74400CF5BB6;
+			productRefGroup = FE2B84A9274DD74400CF5BB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE2B84A7274DD74400CF5BB6 /* ListenToGuess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE2B84A6274DD74400CF5BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2B84B8274DD74500CF5BB6 /* LaunchScreen.storyboard in Resources */,
+				FEF51AAC274F7A7400D9B94E /* Orbis Tower of Goddess.mp3 in Resources */,
+				FEF51A8A274F7A7400D9B94E /* Ludibrium Dark Shadow.mp3 in Resources */,
+				FEF519EE274F4DB700D9B94E /* lives.json in Resources */,
+				FEF51A99274F7A7400D9B94E /* Ludibrium Fantasia.mp3 in Resources */,
+				FEF51A96274F7A7400D9B94E /* Herb Town Pirate.mp3 in Resources */,
+				FEF51AB6274F7A7400D9B94E /* Ellinia Moonlight Shadow.mp3 in Resources */,
+				FEF51A84274F7A7400D9B94E /* Orbis Shinin Harbor.mp3 in Resources */,
+				FEF51A79274F7A7400D9B94E /* Ludibrium Funny Time Maker.mp3 in Resources */,
+				FEF51A80274F7A7400D9B94E /* Ariant Hot Desert.mp3 in Resources */,
+				FEF51ABE274F9DD100D9B94E /* GameOverView.xib in Resources */,
+				FEF51A7D274F7A7400D9B94E /* Ludibrium Fairytale.mp3 in Resources */,
+				FEF51AA0274F7A7400D9B94E /* Maple Island First Step Master.mp3 in Resources */,
+				FEF51ABA274F7A7400D9B94E /* Orbis Upon the Sky.mp3 in Resources */,
+				FEF51A95274F7A7400D9B94E /* Leafre Minars Dream.mp3 in Resources */,
+				FEF51AB9274F7A7400D9B94E /* Ludibrium High Enough.mp3 in Resources */,
+				FEF51A89274F7A7400D9B94E /* Kerning Square Subway.mp3 in Resources */,
+				FEF51AB5274F7A7400D9B94E /* Aquarium.mp3 in Resources */,
+				FEF51A8D274F7A7400D9B94E /* Henesys Go Picnic.mp3 in Resources */,
+				FEF51A75274F7A7400D9B94E /* Ludibrium Flying in a Blue Dream.mp3 in Resources */,
+				FEF51A82274F7A7400D9B94E /* Leafre.mp3 in Resources */,
+				FEF51A98274F7A7400D9B94E /* China Go Shanghai.mp3 in Resources */,
+				FEF51A90274F7A7400D9B94E /* Perion Highland Star.mp3 in Resources */,
+				FEF51A9D274F7A7400D9B94E /* Blue World.mp3 in Resources */,
+				FEF51A9A274F7A7400D9B94E /* Orbis Arab Pirate.mp3 in Resources */,
+				FEF51AB8274F7A7400D9B94E /* Korean Folk Town Downtown.mp3 in Resources */,
+				FEF51AB4274F7A7400D9B94E /* Kerning City Jungle Book.mp3 in Resources */,
+				FEF51A9F274F7A7400D9B94E /* Lith Harbor Above the Treetops.mp3 in Resources */,
+				FEF51A92274F7A7400D9B94E /* Sleepywood.mp3 in Resources */,
+				FEF51AB0274F7A7400D9B94E /* Sleepywood Evil Eyes.mp3 in Resources */,
+				FEF51A85274F7A7400D9B94E /* Ariant.mp3 in Resources */,
+				FEF51A9B274F7A7400D9B94E /* Ereve Raindrop Flower.mp3 in Resources */,
+				FEF51AA5274F7A7400D9B94E /* Cash Shop.mp3 in Resources */,
+				FEF51A93274F7A7400D9B94E /* Mu Lung Hill.mp3 in Resources */,
+				FEF51AB1274F7A7400D9B94E /* Malaysia Highland.mp3 in Resources */,
+				FEF51A7A274F7A7400D9B94E /* Shining Sea.mp3 in Resources */,
+				FEF51AA4274F7A7400D9B94E /* Ellinia When the Morning Comes.mp3 in Resources */,
+				FEF51A91274F7A7400D9B94E /* Night Market.mp3 in Resources */,
+				FEF51A8C274F7A7400D9B94E /* Mushroom Shrine Feeling.mp3 in Resources */,
+				FEF51A78274F7A7400D9B94E /* Interior of Nautilus.mp3 in Resources */,
+				FEF51A81274F7A7400D9B94E /* Ereve Queens Garden.mp3 in Resources */,
+				FEF51AA2274F7A7400D9B94E /* Henesys Rest N Peace.mp3 in Resources */,
+				FEF51A9C274F7A7400D9B94E /* Ludibrium Fantastic Thinking.mp3 in Resources */,
+				FEF51AAA274F7A7400D9B94E /* Ellin Forest.mp3 in Resources */,
+				FEF51A97274F7A7400D9B94E /* Kerning City Bad Guys.mp3 in Resources */,
+				FEF51AA8274F7A7400D9B94E /* Ludibrium Theyre Menacing You.mp3 in Resources */,
+				FE2B84B5274DD74500CF5BB6 /* Assets.xcassets in Resources */,
+				FEF51A8B274F7A7400D9B94E /* Mushroom Castle Blue Sky.mp3 in Resources */,
+				FEF51AAB274F7A7400D9B94E /* Orbis Come with Me.mp3 in Resources */,
+				FEF51AA9274F7A7400D9B94E /* Ludibrium Timeless.mp3 in Resources */,
+				FEF51A83274F7A7400D9B94E /* Sleepywood Ancient Move.mp3 in Resources */,
+				FEF51A76274F7A7400D9B94E /* Kerning Square.mp3 in Resources */,
+				FEF51A94274F7A7400D9B94E /* Showa Yume.mp3 in Resources */,
+				FEF51A86274F7A7400D9B94E /* Mu Lung Forest.mp3 in Resources */,
+				FEF51AA1274F7A7400D9B94E /* Kerning Square Field.mp3 in Resources */,
+				FE2B84B3274DD74400CF5BB6 /* ListenToGuess.storyboard in Resources */,
+				FEF51A87274F7A7400D9B94E /* Castle Outside.mp3 in Resources */,
+				FEF51AA6274F7A7400D9B94E /* Ancient Forest.mp3 in Resources */,
+				FEF51A7E274F7A7400D9B94E /* Ellinia Missing You.mp3 in Resources */,
+				FEF51AA7274F7A7400D9B94E /* Henesys Floral Life.mp3 in Resources */,
+				FEF51AB7274F7A7400D9B94E /* Orbis Plot of Pixie.mp3 in Resources */,
+				FEF51AAF274F7A7400D9B94E /* Perion Nightmare.mp3 in Resources */,
+				FEF51AB2274F7A7400D9B94E /* Ludibrium Wherever You Are.mp3 in Resources */,
+				FEF51A7B274F7A7400D9B94E /* Haunted House.mp3 in Resources */,
+				FEF51AB3274F7A7400D9B94E /* El Nath Warm Regard.mp3 in Resources */,
+				FEF51A88274F7A7400D9B94E /* Aqua Dungeon Deep Sea.mp3 in Resources */,
+				FEF51A9E274F7A7400D9B94E /* Florina Beach Beachway.mp3 in Resources */,
+				FEF51AA3274F7A7400D9B94E /* Ludibrium Waltz for Work.mp3 in Resources */,
+				FEF51AAE274F7A7400D9B94E /* Nautilus.mp3 in Resources */,
+				FEF51AAD274F7A7400D9B94E /* Magatia Dispute.mp3 in Resources */,
+				FEF51A8E274F7A7400D9B94E /* Cava Bien.mp3 in Resources */,
+				FEF51A8F274F7A7400D9B94E /* El Nath Snowy Village.mp3 in Resources */,
+				FEF51A7F274F7A7400D9B94E /* Title.mp3 in Resources */,
+				FEF51A77274F7A7400D9B94E /* White Herb.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D0AD2261519C38651E59358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ListenToGuess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F7EB291D8EF1F45171280A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ListenToGuess/Pods-ListenToGuess-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ListenToGuess/Pods-ListenToGuess-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ListenToGuess/Pods-ListenToGuess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE2B84A4274DD74400CF5BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF51ABC274F9DC800D9B94E /* GameOverView.swift in Sources */,
+				FEF519F3274F4E5A00D9B94E /* ListenToGuessListViewController.swift in Sources */,
+				FEF519F5274F4E8000D9B94E /* ListenToGuessPlayViews.swift in Sources */,
+				FEF519F7274F4E8B00D9B94E /* ListenToGuessPlayViewModel.swift in Sources */,
+				FE2B84B0274DD74400CF5BB6 /* ListenToGuessNavViewController.swift in Sources */,
+				FEBA21D32750CBD5003CD279 /* ListenToGuessHistoryViewController.swift in Sources */,
+				FEF519F1274F4E4E00D9B94E /* ListenToGuessPlayViewController.swift in Sources */,
+				FE2B84AC274DD74400CF5BB6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE2B84B1274DD74400CF5BB6 /* ListenToGuess.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE2B84B2274DD74400CF5BB6 /* Base */,
+			);
+			name = ListenToGuess.storyboard;
+			sourceTree = "<group>";
+		};
+		FE2B84B6274DD74500CF5BB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE2B84B7274DD74500CF5BB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE2B84BA274DD74500CF5BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE2B84BB274DD74500CF5BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE2B84BD274DD74500CF5BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81479AF29EC9C0CCC36376D8 /* Pods-ListenToGuess.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ListenToGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "听歌猜曲";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = ListenToGuess;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bfs.ListenToGuess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE2B84BE274DD74500CF5BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9234C0235A4D36D705DB18 /* Pods-ListenToGuess.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ListenToGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "听歌猜曲";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = ListenToGuess;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bfs.ListenToGuess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE2B84A3274DD74400CF5BB6 /* Build configuration list for PBXProject "ListenToGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2B84BA274DD74500CF5BB6 /* Debug */,
+				FE2B84BB274DD74500CF5BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2B84BC274DD74500CF5BB6 /* Build configuration list for PBXNativeTarget "ListenToGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2B84BD274DD74500CF5BB6 /* Debug */,
+				FE2B84BE274DD74500CF5BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE2B84A0274DD74400CF5BB6 /* Project object */;
+}

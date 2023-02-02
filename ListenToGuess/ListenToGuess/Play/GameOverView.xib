@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GameOverView" customModule="ListenToGuess" customModuleProvider="target">
+            <connections>
+                <outlet property="bgView" destination="vFX-Tp-M3p" id="Xax-UA-wUz"/>
+                <outlet property="mView" destination="iN0-l3-epB" id="Xqs-7S-p1E"/>
+                <outlet property="removeButton" destination="cTM-nt-Suh" id="lfA-u3-pgm"/>
+                <outlet property="restartButton" destination="LOS-WZ-J3n" id="SZM-iX-xMl"/>
+                <outlet property="textLabel" destination="cvJ-13-pMF" id="ejN-Ij-CS5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="GameOverView" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vFX-Tp-M3p">
+                    <rect key="frame" x="62.5" y="207" width="250" height="253"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GET" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvJ-13-pMF">
+                            <rect key="frame" x="0.0" y="0.0" width="250" height="121"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="cvJ-13-pMF" secondAttribute="height" multiplier="250:121" id="QG4-B6-9rv"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                            <color key="textColor" red="0.1065460418" green="0.43666172689999999" blue="0.46796507939999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOS-WZ-J3n">
+                            <rect key="frame" x="50" y="144.5" width="150" height="31"/>
+                            <color key="backgroundColor" red="0.1065460418" green="0.43666172689999999" blue="0.46796507939999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="LOS-WZ-J3n" secondAttribute="height" multiplier="150:31" id="jgO-f0-54h"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Again">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTM-nt-Suh">
+                            <rect key="frame" x="50" y="197" width="150" height="31"/>
+                            <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Back">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="cTM-nt-Suh" firstAttribute="width" secondItem="cTM-nt-Suh" secondAttribute="height" multiplier="150:31" id="FrB-tw-nRS"/>
+                        <constraint firstItem="cTM-nt-Suh" firstAttribute="centerY" secondItem="vFX-Tp-M3p" secondAttribute="centerY" multiplier="420:250" id="R4z-3E-p8H"/>
+                        <constraint firstItem="cTM-nt-Suh" firstAttribute="centerX" secondItem="vFX-Tp-M3p" secondAttribute="centerX" id="RsF-g2-EQr"/>
+                        <constraint firstItem="cTM-nt-Suh" firstAttribute="width" secondItem="vFX-Tp-M3p" secondAttribute="width" multiplier="150:250" id="VqY-Os-tts"/>
+                        <constraint firstItem="cvJ-13-pMF" firstAttribute="top" secondItem="vFX-Tp-M3p" secondAttribute="top" id="eWR-nx-kiQ"/>
+                        <constraint firstAttribute="width" secondItem="vFX-Tp-M3p" secondAttribute="height" multiplier="250:253" id="u3J-7H-Apg"/>
+                        <constraint firstAttribute="trailing" secondItem="cvJ-13-pMF" secondAttribute="trailing" id="v4E-Yn-5Oh"/>
+                        <constraint firstItem="cvJ-13-pMF" firstAttribute="leading" secondItem="vFX-Tp-M3p" secondAttribute="leading" id="x48-PU-P9O"/>
+                        <constraint firstItem="LOS-WZ-J3n" firstAttribute="width" secondItem="vFX-Tp-M3p" secondAttribute="width" multiplier="150:250" id="xWc-4m-USe"/>
+                        <constraint firstItem="LOS-WZ-J3n" firstAttribute="centerX" secondItem="vFX-Tp-M3p" secondAttribute="centerX" id="yKA-Nm-aab"/>
+                        <constraint firstItem="LOS-WZ-J3n" firstAttribute="centerY" secondItem="vFX-Tp-M3p" secondAttribute="centerY" multiplier="320:253" id="zHk-im-tuX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.16078902264030612" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vFX-Tp-M3p" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="7Og-jU-VEL"/>
+                <constraint firstItem="vFX-Tp-M3p" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="ufV-cS-ah3"/>
+                <constraint firstItem="vFX-Tp-M3p" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="250:375" id="ulW-O2-R8U"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="81.409295352323838"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
